@@ -11,4 +11,4 @@ Note: 'aBrokenObject' stands for the object name. You can name the object as per
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](https://docs.teamtad.com/breaking\_an\_object?do=edit)
+_←_ [_∈_](https://docs.teamtad.com/breaking\_an\_object?do=edit)\

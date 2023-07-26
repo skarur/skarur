@@ -28,23 +28,50 @@
   * [Creating Objects \[TAD Docs\]](tad-designer/what-we-do/creating-objects-tad-docs.md)
 * [Hiding objects](tad-designer/hiding-objects.md)
 * [Editing objects](tad-designer/editing-objects.md)
-* [✨ Our Features](tad-designer/our-features/README.md)
-  * [Merge 2 or more objects](tad-designer/our-features/merge-2-or-more-objects.md)
-  * [Breaking an object](tad-designer/our-features/breaking-an-object.md)
-  * [Deleting objects](tad-designer/our-features/deleting-objects.md)
+* [Merge 2 or more objects](tad-designer/merge-2-or-more-objects.md)
+* [Breaking an object](tad-designer/breaking-an-object.md)
+* [Deleting objects](tad-designer/deleting-objects.md)
+* [Selecting objects](tad-designer/selecting-objects.md)
+* [Snapping Objects](tad-designer/snapping-objects.md)
+* [Measuring dimensions](tad-designer/measuring-dimensions.md)
+* [Viewing objects in 3D](tad-designer/viewing-objects-in-3d.md)
+* [Copying objects](tad-designer/copying-objects.md)
+* [Pasting objects](tad-designer/pasting-objects.md)
+* [Moving objects](tad-designer/moving-objects.md)
+* [Rotating objects](tad-designer/rotating-objects.md)
+* [Pinning objects](tad-designer/pinning-objects.md)
+* [Undoing objects](tad-designer/undoing-objects.md)
+* [Moving the architect](tad-designer/moving-the-architect.md)
+* [Exporting objects to 2D](tad-designer/exporting-objects-to-2d.md)
+* [Exporting objects to 3D](tad-designer/exporting-objects-to-3d.md)
 
-## Product Guides
+## Object Editing Commands
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
+* [📪 Shifting a corner](object-editing-commands/shifting-a-corner.md)
+* [Adding a corner](object-editing-commands/adding-a-corner.md)
+* [Stretching an edge](object-editing-commands/stretching-an-edge.md)
+* [Extruding an edge](object-editing-commands/extruding-an-edge.md)
+* [Deleting a corner](object-editing-commands/deleting-a-corner.md)
+* [Moving a current object or selected set of objects](object-editing-commands/moving-a-current-object-or-selected-set-of-objects.md)
+* [📎 Understanding Projects](object-editing-commands/understanding-projects.md)
 
-## Fundamentals
+## Display Options
 
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
+* [🛠 Zooming objects](display-options/zooming-objects/README.md)
+  * [Panning site](display-options/zooming-objects/panning-site.md)
 
-## Use Cases
+## Keyboard Shortcuts
 
-* [🎨 For Designers](use-cases/for-designers.md)
-* [🖥 For Developers](use-cases/for-developers.md)
+* [Keyboard Shortcuts](keyboard-shortcuts/keyboard-shortcuts.md)
+
+## Appendix
+
+* [Acknowledgements](appendix/acknowledgements.md)
+* [SFA Taxonomy](appendix/sfa-taxonomy.md)
+* [Well-formed Objects](appendix/well-formed-objects.md)
+* [Tutorials Using AutoIt](appendix/tutorials-using-autoit.md)
+* [TAD DESIGNER LITE END USER LICENSE AGREEMENT and TERMS OF USE](appendix/tad-designer-lite-end-user-license-agreement-and-terms-of-use.md)
+
+## TAD Probes
+
+* [TAD Probes](tad-probes/tad-probes.md)

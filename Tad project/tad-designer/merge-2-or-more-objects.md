@@ -15,4 +15,4 @@ The merge command is very useful to create [envelopes](https://docs.teamtad.com/
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](https://docs.teamtad.com/merging\_objects?do=edit)\
+_←_ [_∈_](https://docs.teamtad.com/merging\_objects?do=edit)
