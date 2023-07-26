@@ -1,4 +1,4 @@
-# An Appeal \[TAD Docs]
+# An Appeal
 
 _(**Note:** If you came here from the installer, don't worry. The installation is proceeding in the background)_
 
@@ -15,15 +15,9 @@ Thank you in advance.
 
 _**At the very least, you can give more than a shout to fellow architects regarding this project?**_
 
-[**More details...**](../../.gitbook/assets/more\_details)
+[**More details...**](https://docs.teamtad.com/more\_details)
 
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
-
-Last modified: le 2023/04/22 20:59
-
-***
-
-#### Page Tools
+_←_ [_∈_](https://docs.teamtad.com/money\_matters?do=edit)\

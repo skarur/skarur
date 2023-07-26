@@ -48,8 +48,8 @@ _Press F1 inside the application to read context-sensitive help directly in the 
 
 ## Quick links
 
-{% content-ref url="tad-designer/what-we-do/" %}
-[what-we-do](tad-designer/what-we-do/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="broken-reference" %}

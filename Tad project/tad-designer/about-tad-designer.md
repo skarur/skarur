@@ -1,12 +1,10 @@
-# About TAD Designer \[TAD Docs]
-
-TAD stands for **The Architect's Desktop**.
+# About TAD Designer
 
 _If you are in a hurry, you can register and_ [_follow instructions here_ ](https://www.teamtad.com/downloadtad.html)_10 minutes later you would be using TAD_
 
 TAD is a unique kind of BIM, much different from conventional (IFC based) BIM that you may have seen elsewhere. It is small, extremely fast, and quite easy to use – but, it works very differently.
 
-Popularly, we use the short-form “TAD” to often mean this desktop designing component (i.e. _TAD Designer Lite_) – as that is the main component to use the TAD Platform. See [FAQ](broken-reference) on terminologies such as TAD, TAD Designer and TAD Designer Lite.
+Popularly, we use the short-form “TAD” to often mean this desktop designing component (i.e. _TAD Designer Lite_) – as that is the main component to use the TAD Platform. See [FAQ](https://docs.teamtad.com/faq) on terminologies such as TAD, TAD Designer and TAD Designer Lite.
 
 **A bit of history**
 
@@ -24,7 +22,7 @@ Here is a video made by Sabu Francis, based on a very old presentation of TAD (B
 
 TAD assists in designing right from early-stage of designing onward. It helps you arrive at final designs from hazy early design concepts. It is possibly the only BIM software that starts out by arranging _spaces_ in a design.
 
-If you want to jump ahead: **Here are some important, nay,** [_**critical linguistic concepts**_](../../.gitbook/assets/critical\_linguistic\_concepts) **that TAD preserves** That by itself, is a very powerful reason why this project must exist and thrive.
+If you want to jump ahead: **Here are some important, nay,** [_**critical linguistic concepts**_](https://docs.teamtad.com/critical\_linguistic\_concepts) **that TAD preserves** That by itself, is a very powerful reason why this project must exist and thrive.
 
 Besides offering extensive analysis capabilities, TAD also facilitates the programming of such objective analysis routines. You can script them inside TAD. We are in the process of giving an online IDE for such scripting.
 
@@ -42,15 +40,15 @@ We are still a bit away from the entire TAD and this documentation currently con
 
 **TAD versions from 6.0.0.0 to 7.0.0.0 is free. **_**Versions from 7.x is free and open-source**_
 
-In order to use TAD, you need to register an account with us at [our community](broken-reference). Registration is always free for versions from 6.0.0.0 onward.
+In order to use TAD, you need to register an account with us at [our community](https://docs.teamtad.com/registration). Registration is always free for versions from 6.0.0.0 onward.
 
 We are hoping large number of architects and other professionals in the AEC industry join us on our mission, and the pricing would be kept very low, if not free.
 
 After version 7.0.0.0 we plan to open-source TAD and/or its main component; _TAD Designer_ The free version is being distributed to prepare the community to start the 7.0.0.1 open source version soon.
 
-Currently, we have completely documented [TAD Designer](../../.gitbook/assets/tad\_designer), the desktop software component used for designing. Use the menu on the left to learn more. Please do not skip the initial steps and the concepts.
+Currently, we have completely documented [TAD Designer](https://docs.teamtad.com/tad\_designer), the desktop software component used for designing. Use the menu on the left to learn more. Please do not skip the initial steps and the concepts.
 
-If you encounter any problems; feel free to join the discourse at either at our chat system or at the TAD Dashboard. You need to register. It is free and the process [is explained here](broken-reference)
+If you encounter any problems; feel free to join the discourse at either at our chat system or at the TAD Dashboard. You need to register. It is free and the process [is explained here](https://docs.teamtad.com/registration)
 
 **Design from early stages onward**
 
@@ -66,15 +64,17 @@ When you use TAD Designer and you press “F1” to obtain help; it will lead yo
 
 We would be opening up this Wiki to some of the active users of TAD; and we are sure this documentation would be elaborate and serve all your needs soon
 
-[**The Benefits of TAD**](../../.gitbook/assets/the\_benefits\_of\_tad) are explained in detail in [another topic](../../.gitbook/assets/the\_benefits\_of\_tad)
+[**The Benefits of TAD**](https://docs.teamtad.com/the\_benefits\_of\_tad) are explained in detail in [another topic](https://docs.teamtad.com/the\_benefits\_of\_tad)
 
 **Terms of Service and Privacy Policy**
 
-Kindly go through our [Terms of Service](../../.gitbook/assets/tos) and our [Privacy Policy](../../.gitbook/assets/privacy\_policy) thoroughly before using TAD (The Architect's Desktop). When you register an account with us and/or download and use any component of TAD such as _TAD Designer Lite_ component, it is assumed that you have agreed to this [TOS](../../.gitbook/assets/tos) and [Privacy Policy](../../.gitbook/assets/privacy\_policy)
+Kindly go through our [Terms of Service](https://docs.teamtad.com/tos) and our [Privacy Policy](https://docs.teamtad.com/privacy\_policy) thoroughly before using TAD (The Architect's Desktop). When you register an account with us and/or download and use any component of TAD such as _TAD Designer Lite_ component, it is assumed that you have agreed to this [TOS](https://docs.teamtad.com/tos) and [Privacy Policy](https://docs.teamtad.com/privacy\_policy)
 
 **About this documentation itself**
 
 All the pages in this documentation has been initially created and edited by some user or the other of TAD. Every once a while, we would be giving out login credentials for some of our users also to participate in this documentation. Our [chat system](http://chat.tad.in.net/) is open to all – and you could write there too (and ask questions, participate in polls, etc). Some of the people there as well as some actual users of TAD would be allowed here too.
 
+***
+
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
+_←_ [_∈_](https://docs.teamtad.com/about\_tad\_designer?do=edit)\

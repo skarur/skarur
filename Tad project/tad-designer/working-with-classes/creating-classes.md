@@ -1,6 +1,6 @@
-# Creating classes \[TAD Docs]
+# Creating classes
 
-Before reading this topic, you would need to know the [concept of classes and objects](broken-reference)
+Before reading this topic, you would need to know the [concept of classes and objects](https://docs.teamtad.com/concept\_of\_classes\_and\_objects)
 
 You can create, edit, and organize objects of your project in the Class Pane. It is not possible to rename or delete the root class of the class tree. It is always called **Project**.
 
@@ -19,10 +19,4 @@ To create a subclass:
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
-
-Last modified: le 2023/04/22 20:59
-
-***
-
-#### Page Tools
+_←_ [_∈_](https://docs.teamtad.com/creating\_classes?do=edit)

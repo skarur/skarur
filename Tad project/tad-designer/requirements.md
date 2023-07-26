@@ -1,10 +1,10 @@
-# Requirements \[TAD Docs]
+# Requirements
 
 TAD (The Architect's Desktop) has one main component: _TAD Designer/Lite_ is the one that you download and use on your computer.
 
 It works only with your own free TAD user credentials. Note: All work is saved on your own computer/own LAN.
 
-_Psst… if you are confused about the terms TAD, TAD Designer Lite, and just TAD Designer, please read the_ [_FAQ_](broken-reference)
+_Psst… if you are confused about the terms TAD, TAD Designer Lite, and just TAD Designer, please read the_ [_FAQ_](https://docs.teamtad.com/faq)
 
 **Hardware**
 
@@ -14,19 +14,13 @@ It's a 32 bit application – so would work on any kind of Windows 32 bit or 64 
 
 It works quite well on Linux and also Macintosh and Chromebooks, provided you install the WINE layer into those operating-systems. You would also have to update the WINE for all the requirements of this software (Such as MSScript Control and Visual Basic for Applications)
 
-[How to setup Wine on your Linux/Mac/Chromebook](../../.gitbook/assets/wine)
+[How to setup Wine on your Linux/Mac/Chromebook](https://docs.teamtad.com/wine)
 
 **Registration and installation**
 
-This is free, and [explained here](broken-reference)
+This is free, and [explained here](https://docs.teamtad.com/registration)
 
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
-
-Last modified: le 2023/04/22 20:59
-
-***
-
-#### Page Tools
+_←_ [_∈_](https://docs.teamtad.com/to\_download\_and\_install\_tad?do=edit)\

@@ -1,10 +1,8 @@
-# Deprecation Notice \[TAD Docs]
-
-#### Deprecation Notice <a href="#deprecation_notice" id="deprecation_notice"></a>
+# Chat and a Deprecation Notice
 
 _We now have our teamTAD community at Discord now . Use this invitation link to join that community:_ [_https://discord.gg/KxuHQax_](https://discord.gg/KxuHQax)
 
-_Earlier, we had a chat system runs off a dedicated server and it uses the powerful_ Mattermost _chatting system. You can read_ [_how to use chat here_](broken-reference) _but now that our community has grown large; our server is unable to handle the load. Hence we will switch off that system by October 31,2020_
+_Earlier, we had a chat system runs off a dedicated server and it uses the powerful_ Mattermost _chatting system. You can read_ [_how to use chat here_](https://docs.teamtad.com/tadchat) _but now that our community has grown large; our server is unable to handle the load. Hence we will switch off that system by October 31,2020_
 
 ***
 
@@ -37,4 +35,4 @@ More details on how to use the Mattermost chat software that TAD Chat uses here 
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
+_←_ [_∈_](https://docs.teamtad.com/tadchat?do=edit)\

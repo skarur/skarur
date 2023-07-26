@@ -1,6 +1,6 @@
-# Why is a signup required? \[TAD Docs]
+# Why is a signup required?
 
-In order to use TAD Designer/Lite, it is mandatory to properly register it. That is explained in the [here](broken-reference) Registration is free. We plan to keep it that way.
+In order to use TAD Designer/Lite, it is mandatory to properly register it. That is explained in the [here](https://docs.teamtad.com/registration) Registration is free. We plan to keep it that way.
 
 **One main reason for a mandatory sign up is of course; **_**to become a rock solid team together**_\
 By putting all of us together into a community chat system, every TAD user immediately gets connected to every other TAD users. Earlier the community system was on a _Mattermost_ chat system hosted on our server. But that became too large – so now we have moved over to the Discord teamTAD community; hosted by Discord (which is an unusually named community system that hosts many other communities too)
@@ -28,15 +28,15 @@ _**Details**_
 * You need ONLY one registration to use TAD.
 * You are really very close to the main developer (Sabu Francis) as well as others involved in TAD – therefore support is literally a few keystrokes away.
 * Instead of having a conventional help desk, we decided to go for a community chat so that everyone helps each other. In conventional help systems, individuals are catered to privately. The entire community cannot benefit from such private discussions.
-* The chat system used to work on the excellent open source _Mattermost_ software – It works even as a discussion board. So all users will be able to read all the messages there. Including those that were posted before a person joined. But sadly, the community got quite large and our server was unable to handle the load. So we have now moved over to the free Discord system. We have the [teamTAD community there now](../../.gitbook/assets/discordserver)
+* The chat system used to work on the excellent open source _Mattermost_ software – It works even as a discussion board. So all users will be able to read all the messages there. Including those that were posted before a person joined. But sadly, the community got quite large and our server was unable to handle the load. So we have now moved over to the free Discord system. We have the [teamTAD community there now](https://docs.teamtad.com/discordserver)
 * The dependence on emails become very low. You won't get spammed. We will only send an occasional newsletter via emails. Since we moved over to the Discord TeamTAD community system; even email address is NOT mandatory (but we strongly recommend givin. It is requested from you during installation)
 * TAD also has separate dashboard for collecting issues, bugs, suggestions at [http://tiny.cc/taddash](http://tiny.cc/taddash) You can even put up RFQ for your projects and even job listings at your office .
 
-Thank you for your attention and support. Please also read [this appeal](broken-reference)
+Thank you for your attention and support. Please also read [this appeal](https://docs.teamtad.com/money\_matters)
 
 _Sabu Francis and others involved in TAD_
 
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
+_←_ [_∈_](https://docs.teamtad.com/whysignup?do=edit)\

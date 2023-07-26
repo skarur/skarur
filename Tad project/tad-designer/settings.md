@@ -1,6 +1,4 @@
-# Settings \[TAD Docs]
-
-#### Table of Contents
+# Settings
 
 You can modify the TAD site settings. On the **File** menu, click **Settings** and update the site view. The Settings dialog box has the following three tabs:
 
@@ -10,7 +8,7 @@ You can modify the TAD site settings. On the **File** menu, click **Settings** a
 
 #### System tab <a href="#system_tab" id="system_tab"></a>
 
-
+[![settings\_system\_tab.jpg](https://docs.teamtad.com/\_media/settings\_system\_tab.jpg)](https://docs.teamtad.com/\_detail/settings\_system\_tab.jpg?id=settings)
 
 _**Fig**. System tab_
 
@@ -27,7 +25,7 @@ You can make the following changes in settings here:
 
 #### Tad.Mat file tab <a href="#tadmat_file_tab" id="tadmat_file_tab"></a>
 
-
+[![settings\_tadmat\_file\_tab.jpg](https://docs.teamtad.com/\_media/settings\_tadmat\_file\_tab.jpg)](https://docs.teamtad.com/\_detail/settings\_tadmat\_file\_tab.jpg?id=settings)
 
 _**Fig**. Tad.Mat file tab_
 
@@ -35,7 +33,7 @@ You can use the **Tad.Mat file** tab to assign material information to your TAD 
 
 #### Virtualight tab <a href="#virtualight_tab" id="virtualight_tab"></a>
 
-
+[![settings\_virtualight\_tab.jpg](https://docs.teamtad.com/\_media/settings\_virtualight\_tab.jpg)](https://docs.teamtad.com/\_detail/settings\_virtualight\_tab.jpg?id=settings)
 
 _**Fig**. Virtualight tab_
 
@@ -44,10 +42,4 @@ Virtualight is the rendering engine attached to TAD. You can set the **Parameter
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
-
-Last modified: le 2023/04/22 20:59
-
-***
-
-#### Page Tools
+_←_ [_∈_](https://docs.teamtad.com/settings?do=edit)\

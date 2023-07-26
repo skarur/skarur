@@ -1,4 +1,4 @@
-# Classes and Objects \[TAD Docs]
+# Classes and Objects
 
 TAD Designer arranges the volumes you create and edit into a grouping called a “class” – Say, you have made all the spaces for the first floor of the house you are designing. In such a case, all those spaces would be gathered into a “class” that you name as “First Floor” (You can pick your own name. This one is just an example)
 
@@ -22,7 +22,7 @@ The advantage of making such a tree structure as you model is that you can assig
 
 Of course, you can decide whether you want a particular property to get passed down via this mechanism of inheritence or not. So when you set such properties inside the TAD Designer interface, we have conveniently given you two sections – one is the “inheritable” seciton and the other is the “non-inheritable” section for you to give the properties appropriately
 
-Before reading this topic, you would need to know the [concept of classes and objects](broken-reference)
+Before reading this topic, you would need to know the [concept of classes and objects](https://docs.teamtad.com/concept\_of\_classes\_and\_objects)
 
 You can create, edit, and organize objects of your project in the Class Pane. It is not possible to rename or delete the root class of the class tree. It is always called **Project**.
 
@@ -38,7 +38,11 @@ To create a subclass:
 1. In the **Class Pane**, select the class under which you want to create a sub class.
 2. Right click on the class, and click **Add class**.
 
+**See also:** [Metaphors](https://docs.teamtad.com/metaphors) | [Taxonomy](https://docs.teamtad.com/taxonomy)
+
+**See also:** [embellishment](https://docs.teamtad.com/embellishment) | [objects](https://docs.teamtad.com/objects) | [classes](https://docs.teamtad.com/classes) | [See more details on classes and objects](https://docs.teamtad.com/concept\_of\_classes\_and\_objects)
+
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
+_←_ [_∈_](https://docs.teamtad.com/concept\_of\_classes\_and\_objects?do=edit)\

@@ -1,12 +1,12 @@
-# Frequently Asked Questions \[TAD Docs]
+# Frequently Asked Questions
 
 **Started in 1989? Why didn't I hear about TAD for so long?**\
 Good question. There are many reasons. There are some intricate tech reasons why works like TAD sometimes are not exposed through Google, etc.
 
 There are two nice TED talks on the Google filter bubble:
 
-*
-*
+* [https://www.ted.com/talks/andreas\_ekstrom\_the\_moral\_bias\_behind\_your\_search\_results](https://www.ted.com/talks/andreas\_ekstrom\_the\_moral\_bias\_behind\_your\_search\_results) and
+* [https://www.ted.com/talks/eli\_pariser\_beware\_online\_filter\_bubbles](https://www.ted.com/talks/eli\_pariser\_beware\_online\_filter\_bubbles)
 
 There were some personal events that also hindered the exposure. But that is all now past and quite irrelevant as an answer here.
 
@@ -23,7 +23,7 @@ TAD was finally “exposed” to the www on Jan 26, 2017, after a conference on 
 **You say it is free. Any catch?**\
 Not at all. We don't even lock you in to buying anything at all from us, if that is how you work – the software is completely open and you can create your own architectural masterpieces and make real buildings with them.
 
-Our liberal [freeware license](../../.gitbook/assets/tos) indicates that if you happen to sell your data to potentially anonymous users, then it has to be routed through our payment gateway and our servers. We thought it is only fair that we make money _only_ when you make money – and that too for data that goes to any potentially anonymous user
+Our liberal [freeware license](https://docs.teamtad.com/tos) indicates that if you happen to sell your data to potentially anonymous users, then it has to be routed through our payment gateway and our servers. We thought it is only fair that we make money _only_ when you make money – and that too for data that goes to any potentially anonymous user
 
 The entire TAD package would be having some commercial offerings too (like the _architectsdesktop private cloud servers_ which you can purchase if you so want) but we are committed to make none of them mandatory as such. We would also offer advice on a subscription basis, and other commercial services too
 
@@ -35,13 +35,13 @@ Certainly . TAD has a scripting system. You can create add-ons using that; and r
 **How can I help?**\
 Tell all architects to use TAD! Inform on Facebook, Twitter and other social media. Let this go viral
 
-Here is a personal [appeal from Sabu](broken-reference) Francis which you can read, if you want to help.
+Here is a personal [appeal from Sabu](https://docs.teamtad.com/money\_matters) Francis which you can read, if you want to help.
 
 **Does it work like Autocad or Revit or Archicad or Sketchup … ?**\
 No. TAD does not work like any of those software. That does not mean it is hard to use. Just open your mind and read our documentation here. You should be able to learn it easily and you can start producing designs in half a day or so
 
 **But is TAD really a BIM software?**\
-Yes it is. And no, it is not. ![:-)](../../.gitbook/assets/smile.svg)
+Yes it is. And no, it is not. ![:-)](https://docs.teamtad.com/lib/images/smileys/smile.svg)
 
 BIM is a term invented by Autodesk, to give a generic name to the category of software like Revit. A _BIM_ software talks about information inside the model of a building. That information need not be just the visual 3D of the building. It would be things like cost, properties of material, name of supplier and a zillion other stuff. BIM was coined only around 2007(?) or so.
 
@@ -93,7 +93,9 @@ The chat inside the documentation itself is for the general public; and mainly d
 
 That chat working within the documentation will NOT make you a registered user of TAD.
 
-The process of registering yourself as a registered user of TAD is [explained here](broken-reference)
+The process of registering yourself as a registered user of TAD is [explained here](https://docs.teamtad.com/registration)
+
+***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
+_←_ [_∈_](https://docs.teamtad.com/faq?do=edit)

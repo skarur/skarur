@@ -1,4 +1,4 @@
-# Install OR Update TAD Designer Lite \[TAD Docs]
+# Install OR Update TAD Designer Lite
 
 Use the instructions here to either install the latest version OR to update your existing copy
 
@@ -14,21 +14,21 @@ Run the setup program; _tadsetup.exe_ It should install the program just like an
 
 After you run the installer, TAD would be installed on your computer. Note that the installer does NOT allow you to run TAD when the installer itself is opened. You would need to quit the installer to run TAD.
 
-When you run TAD for the first time, it will authenticate you. This process is extremely easy and it is described here TAD will expect that you have the membership of our teamTAD community at [Discord](../../.gitbook/assets/discordserver) . If you do not have a Discord teamTAD community membership, use this link: [https://discord.gg/KxuHQax](https://discord.gg/KxuHQax) This is important as it will verify all that.
+When you run TAD for the first time, it will authenticate you. This process is extremely easy and [it is described here](https://docs.teamtad.com/2ndstepdiscord) TAD will expect that you have the membership of our teamTAD community at [Discord](https://docs.teamtad.com/discordserver) . If you do not have a Discord teamTAD community membership, use this link: [https://discord.gg/KxuHQax](https://discord.gg/KxuHQax) This is important as it will verify all that.
 
 Once TAD Designer Lite is installed and authenticated; you can use it straightaway.
 
 **Notice: Earlier to version 6.8.1.2**\
-NOTE: When you run the installer; it will ask for an **install code.** So make sure that [have obtained a registration first](broken-reference) **The registration is free!** Once you register, you will have to check your email and confirm your account. Filling the registration form also gives you the **install code**.
+NOTE: When you run the installer; it will ask for an **install code.** So make sure that [have obtained a registration first](https://docs.teamtad.com/registration) **The registration is free!** Once you register, you will have to check your email and confirm your account. Filling the registration form also gives you the **install code**.
 
-TAD Designer Lite would ask for an authentication during the first time it is run after installation. This is explained here for versions _earlier_ to 6.8.1.2
+TAD Designer Lite would ask for an [authentication during the first time it is run after installation. This is explained here](https://docs.teamtad.com/authentication) for versions _earlier_ to 6.8.1.2
 
 **Authentication check is done every 30 days**\
 But from 6.8.1.2 onward, you can straight away start using TAD Designer Lite after installation – and it will ask for an authentication only once in 30 days after installation.
 
 **Change History**
 
-Read how the features were implemented in the _change history here_ for the version you downloaded
+Read how the features were implemented in the [_change history here_](https://docs.teamtad.com/changehistory) for the version you downloaded
 
 **Enjoy**
 
@@ -36,7 +36,9 @@ Now enjoy the new version! Once you run the software, Press F1 to get context se
 
 **Terms of Service and Privacy Policy**
 
-Kindly go through our [Terms of Service](../../.gitbook/assets/tos) and our [Privacy Policy](../../.gitbook/assets/privacy\_policy) thoroughly before using TAD (The Architect's Desktop). When you register an account with us and/or download and use any component of TAD such as _TAD Designer Lite_ component, it is assumed that you have agreed to those policies
+Kindly go through our [Terms of Service](https://docs.teamtad.com/tos) and our [Privacy Policy](https://docs.teamtad.com/privacy\_policy) thoroughly before using TAD (The Architect's Desktop). When you register an account with us and/or download and use any component of TAD such as _TAD Designer Lite_ component, it is assumed that you have agreed to those policies
+
+***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
+_←_ [_∈_](https://docs.teamtad.com/update?do=edit)

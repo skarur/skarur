@@ -1,10 +1,10 @@
-# Concepts inside TAD \[TAD Docs]
+# Concepts inside TAD
 
 **Did you expect TAD to be similar to CAD?**\
-_If you are in a hurry and you thought TAD should be very similar to CAD (especially the popular drafting software AutoCAD), let me clear this immediately before you read further. TAD does not work like CAD._ [_An entire chapter here is dedicated to explain the differences_](../../.gitbook/assets/differences\_between\_cad\_and\_tad)
+_If you are in a hurry and you thought TAD should be very similar to CAD (especially the popular drafting software AutoCAD), let me clear this immediately before you read further. TAD does not work like CAD._ [_An entire chapter here is dedicated to explain the differences_](https://docs.teamtad.com/differences\_between\_cad\_and\_tad)
 
 **A bird's eye view of the core reason for TAD**\
-See this article, which explains [the core concept](../../.gitbook/assets/coreconcept) which is good way to start understanding TAD.
+See this article, which explains [the core concept](https://docs.teamtad.com/coreconcept) which is good way to start understanding TAD.
 
 **Who is TAD meant for?**\
 TAD in its current form (i.e. using the design component called TAD Designer Lite) is meant for architects offices – small and medium size. Especially in developing countries. These offices typically are often in a metaphorical fire-fighting exercise daily. They are plagued by employee problems, problems of getting fees on time, getting underpaid and several other issues. TAD is actually for the main designers there.
@@ -17,7 +17,7 @@ TAD is actually quite minimalist and packs in a huge amount of power with very l
 
 As TAD is released as a freeware (and later on it would be open-source too) this has attracted many interested amateurs who want to have a go at architectural designing. They too are welcome – but since TAD is so intimately tied up with the way professional architects in developing countries work, they may miss bells and whistles of a slick interface, etc.
 
-However the entire ecology of TAD that is being setup will be very useful for such interested amateurs. TAD is being worked out so that there is an online design catalogue from where half-finished designed can be chosen for you to work on further, etc. Just that we are cash-strapped and people strapped. So kindly [read our appeal](broken-reference) and contribute!
+However the entire ecology of TAD that is being setup will be very useful for such interested amateurs. TAD is being worked out so that there is an online design catalogue from where half-finished designed can be chosen for you to work on further, etc. Just that we are cash-strapped and people strapped. So kindly [read our appeal](https://docs.teamtad.com/money\_matters) and contribute!
 
 What were saying in sort is that TAD is not just the downloadable design software. There is a lot more. Our FAQ explains the term “TAD” for more details.
 
@@ -29,7 +29,7 @@ CAD and BIM software fleshes out what is built in any piece of architecture. Spa
 
 In TAD, you first work on the spaces. The system works out where are the built-matter; mostly on its own – depending on how you arranged the spaces of your design.
 
-If we were pompous about this; we would have called it a “Copernican revolution” (_hmmm…maybe we should_ ![:-)](../../.gitbook/assets/smile.svg) _)_ Copernicus was the first scientist who proposed that it was the Earth that revolved around the Sun unlike the earlier belief about the Sun rotating around the Earth
+If we were pompous about this; we would have called it a “Copernican revolution” (_hmmm…maybe we should_ ![:-)](https://docs.teamtad.com/lib/images/smileys/smile.svg) _)_ Copernicus was the first scientist who proposed that it was the Earth that revolved around the Sun unlike the earlier belief about the Sun rotating around the Earth
 
 So, before TAD came on the scene – everyone thought that the best way to represent buildings as it is being designed, is to first talk about the built-matter.
 
@@ -43,7 +43,7 @@ It is quite simple; actually – simpler than what you may have encountered. You
 
 Which makes it quite powerful: It can actually model BOTH spaces as well as built-matter. TAD recognizes six kind of fundamental “alphabets” of architecture – these are listed below.
 
-Why get into linguistics you may wonder.? [That is explained here](../../.gitbook/assets/critical\_linguistic\_concepts)
+Why get into linguistics you may wonder.? [That is explained here](https://docs.teamtad.com/critical\_linguistic\_concepts)
 
 **What are the advantages?**
 
@@ -63,17 +63,23 @@ When we speak of TAD here; I really mean “TAD Designer” – the desktop desi
 
 Some people wonder why is that TAD claims to be a kind of BIM (Building Information Modeler) and yet when you start using it, it almost looks simplistic. The files produced by TAD are also extremely small and TAD itself can work with very little resources.
 
-That is because of a big conceptual advantage in TAD… it uses something called _just-in-time modelling_ This needs to be carefully understood and hence it is [explained separately here](<../../.gitbook/assets/just in time\_modelling>)
+That is because of a big conceptual advantage in TAD… it uses something called _just-in-time modelling_ This needs to be carefully understood and hence it is [explained separately here](https://docs.teamtad.com/just-in-time\_modelling)
 
 **Working inside TAD Designer**
 
 When you begin a design; you would usually create and place 2D shapes (that later on become 3D, whenever you want to flesh it out in 3D) and then you can edit those shapes to your hearts content. We use the word “object” to generically refer to each piece you put in there. The “object” has to be given a name. TAD Designer religiously remembers the name of the object you had given, and does not get confused even if you happen to edit that shape and/or make that into a 3D volume.
 
-These objects are gathered into various “classes” The concept of Classes and Objects is so important, that wwe have a different topic that explains that in detail. See [here](broken-reference)
+These objects are gathered into various “classes” The concept of Classes and Objects is so important, that wwe have a different topic that explains that in detail. See [here](https://docs.teamtad.com/concept\_of\_classes\_and\_objects)
 
 TAD supports and implements the fractal theories in Geometry.
 
-_**Fig.** 3D model of a bungalow created in TAD and rendered using TurboCAD_ [![about\_tad.jpg](<../../.gitbook/assets/about\_tad (1).jpg>)](../../.gitbook/assets/about\_tad.jpg)
+_**Fig.** 3D model of a bungalow created in TAD and rendered using TurboCAD_ [![about\_tad.jpg](https://docs.teamtad.com/\_media/about\_tad.jpg)](https://docs.teamtad.com/\_detail/about\_tad.jpg?id=tad\_concepts)
+
+**See also:** [Metaphors](https://docs.teamtad.com/metaphors) | [Taxonomy](https://docs.teamtad.com/taxonomy)
+
+**See also:** [embellishment](https://docs.teamtad.com/embellishment) | [objects](https://docs.teamtad.com/objects) | [classes](https://docs.teamtad.com/classes) | [See more details on classes and objects](https://docs.teamtad.com/concept\_of\_classes\_and\_objects)
+
+***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
+_←_ [_∈_](https://docs.teamtad.com/tad\_concepts?do=edit)

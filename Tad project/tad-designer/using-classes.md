@@ -1,4 +1,4 @@
-# Using classes \[TAD Docs]
+# Using classes
 
 **Renaming a class**
 
@@ -29,10 +29,4 @@ To select a class and the subclass, select **View only class and subclass.**
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
-
-Last modified: le 2023/04/22 20:59
-
-***
-
-#### Page Tools
+_←_ [_∈_](https://docs.teamtad.com/managing\_classes?do=edit)

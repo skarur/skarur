@@ -1,4 +1,4 @@
-# Bugs and Suggestions \[TAD Docs]
+# Bugs and Suggestions
 
 You can submit bugs, issues and suggestions from directly within TAD Designer Lite itself. Look under the _Help_ menu.
 
@@ -21,10 +21,4 @@ _Please note: The current username recognized by the computer from which the pos
 ***
 
 _Press F1 inside the application to read context-sensitive help directly in the application itself_\
-_←_ [_∈_](broken-reference)
-
-Last modified: le 2023/04/22 20:59
-
-***
-
-#### Page Tools
+_←_ [_∈_](https://docs.teamtad.com/bugs\_and\_suggestions?do=edit)
