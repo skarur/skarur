@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>Just in time modelling [TAD Docs]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="just-in-time_modelling"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="TAD Docs"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/just-in-time_modelling?do=index" title="Sitemap"/>
+<link rel="manifest" href="/lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/feed.php?mode=list&amp;ns="/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/_export/xhtml/just-in-time_modelling"/>
+<link rel="canonical" href="https://docs.teamtad.com/just-in-time_modelling"/>
+<link rel="stylesheet" href="/lib/exe/css.php?t=flat&amp;tseed=3dd1a12f5d7908d2ca0999d4c9e5c33e"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='';var JSINFO = {"plugin_folded":{"hide":"hide","reveal":"reveal"},"plugins":{"vshare":{"youtube":"youtube\\.com\/.*[&?]v=([a-z0-9_\\-]+)","vimeo":"vimeo\\.com\\\/(\\d+)","slideshare":"slideshare.*id=(\\d+)","dailymotion":"dailymotion\\.com\/video\/([a-z0-9]+)","archiveorg":"archive\\.org\/(?:embed|details)\/([a-zA-Z0-9_\\-]+)","soundcloud":"soundcloud\\.com\/([\\w-]+\/[\\w-]+)","niconico":"nicovideo\\.jp\/watch\/(sm[0-9]+)","bitchute":"bitchute\\.com\\\/video\\\/([a-zA-Z0-9_\\-]+)","coub":"coub\\.com\\\/view\\\/([a-zA-Z0-9_\\-]+)","odysee":"odysee\\.com\/\\$\/(?:embed|download)\/([-%_?=\/a-zA-Z0-9]+)","youku":"v\\.youku\\.com\/v_show\/id_([0-9A-Za-z=]+)\\.html","bilibili":"bilibili\\.com\\\/video\\\/(BV[0-9A-Za-z]+)","msoffice":"(?:office\\.com.*[&?]videoid=([a-z0-9\\-]+))","msstream":"microsoftstream\\.com\\\/video\\\/([a-f0-9\\-]{36})"}},"id":"just-in-time_modelling","namespace":"","ACT":"show","useHeadingNavigation":1,"useHeadingContent":0};
+/*!]]>*/</script>
+<script src="/lib/exe/jquery.php?tseed=f0349b609f9b91a485af8fd8ecd4aea4" defer="defer">/*<![CDATA[*/
+/*!]]>*/</script>
+<script src="/lib/exe/js.php?t=flat&amp;tseed=3dd1a12f5d7908d2ca0999d4c9e5c33e" defer="defer">/*<![CDATA[*/
+/*!]]>*/</script>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="/lib/tpl/flat/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/flat/images/apple-touch-icon.png" />
+        
+	<style type="text/css">
+		img.wp-smiley,img.emoji{
+			display:inline !important;
+			border:none !important;
+			box-shadow:none !important;
+			height:1em !important;
+			width:1em !important;
+			margin:0.07em !important;
+			vertical-align:-0.1em !important;
+			background:none !important;
+			padding:0!important}
+			
+		@font-face {
+		  font-family: 'FontAwesome';
+		  src: url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.eot?v=4.3.0');
+		  src: url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+		}
+	</style>
+	
+	<link rel='stylesheet' id='flat-fonts-css' href='https://fonts.googleapis.com/css?family=Yesteryear%7CLato:400,700%7CBitter%7COpen+Sans+Condensed' media='all' />	
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+	<script src="/lib/tpl/flat/assets/js/flat.js" ></script>
+
+    
+</head>
+
+<body class="blog custom-background" itemscope itemtype="http://schema.org/WebPage">
+
+<div id="dokuwiki__site">
+	<div id="dokuwiki__top">
+		<div id="page">
+			<div class="container">
+			<div class="row row-offcanvas row-offcanvas-left">
+
+				
+				<div id="secondary" class="col-lg-3">
+					
+					<header id="masthead" class="site-header">
+						<div class="hgroup">
+							<h1 class="site-title display-title">
+									<span itemprop="name">
+										<a href="/start" >TAD Docs</a>									</span>
+							
+<script>
+var trlng='';
+//var url= "https://translate.google.com/translate?sl=en&tl="+trlng+"&u="+encodeURI(window.location.href);
+ var urlpath = window.location.pathname
+ var userLang = navigator.language || navigator.userLanguage;
+ var url = "https://docs-teamtad-com.translate.goog"+urlpath+"?_x_tr_sl=en&_x_tr_tl="+userLang+"&_x_tr_sch=http";
+document.write("<style>.tracl a {font-size:8pt; color:white;} </style><div class='tracl'><a href='"+url+"' >Translate</a></div>");
+</script>
+			
+							</h1>
+							<h2 itemprop="description" class="site-description">
+														</h2>
+						</div>
+						<button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas" aria-label="Sidebar">
+							<i class="fa fa-bars"></i>
+						</button>
+						<button type="button" class="btn btn-link hidden-lg toggle-navigation" aria-label="Navigation Menu">
+							<i class="fa fa-gear"></i>
+						</button>
+						<nav id="site-navigation" class="navigation main-navigation">
+							<ul id="menu-menu" class="nav-menu">
+								<!-- ********** ASIDE ********** -->
+																		
+<p>
+<a href="/start" class="wikilink1" title="start" data-wiki-id="start">Welcome</a>
+</p>
+
+<h2 class="sectionedit1" id="tad_designer">TAD Designer</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="/about_tad_designer" class="wikilink1" title="about_tad_designer" data-wiki-id="about_tad_designer">About TAD Designer</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/money_matters" class="wikilink1" title="money_matters" data-wiki-id="money_matters">An Appeal</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/whysignup" class="wikilink1" title="whysignup" data-wiki-id="whysignup">Why sign up?</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/faq" class="wikilink1" title="faq" data-wiki-id="faq">FAQ</a></div>
+</li>
+</ul>
+
+<p>
+<em>Initial steps</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/to_download_and_install_tad" class="wikilink1" title="to_download_and_install_tad" data-wiki-id="to_download_and_install_tad">Requirements</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/registration" class="wikilink1" title="registration" data-wiki-id="registration">Registration</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/update" class="wikilink1" title="update" data-wiki-id="update">Install or update</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/how_to_get_support" class="wikilink1" title="how_to_get_support" data-wiki-id="how_to_get_support">How to get support</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/bugs_and_suggestions" class="wikilink1" title="bugs_and_suggestions" data-wiki-id="bugs_and_suggestions">Bugs and Suggestions</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/tadchat" class="wikilink1" title="tadchat" data-wiki-id="tadchat">How to use chat</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/video_tutorials" class="wikilink1" title="video_tutorials" data-wiki-id="video_tutorials">Videos and Podcasts</a></div>
+</li>
+</ul>
+
+<p>
+<em>First steps into TAD</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/tad_concepts" class="wikilink1" title="tad_concepts" data-wiki-id="tad_concepts">TAD Concepts</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/concept_of_classes_and_objects" class="wikilink1" title="concept_of_classes_and_objects" data-wiki-id="concept_of_classes_and_objects">Concept of Classes and Objects</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/understanding_the_user_interface" class="wikilink1" title="understanding_the_user_interface" data-wiki-id="understanding_the_user_interface">Understanding the User Interface</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/settings" class="wikilink1" title="settings" data-wiki-id="settings">Settings</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/advanced" class="wikilink1" title="advanced" data-wiki-id="advanced">Special Capabilities</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;TAD Designer&quot;,&quot;hid&quot;:&quot;tad_designer&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;20-589&quot;} -->
+<h3 class="sectionedit2" id="working_with_classes">Working with Classes</h3>
+<div class="level3">
+
+<p>
+<a href="/creating_classes" class="wikilink1" title="creating_classes" data-wiki-id="creating_classes">Creating classes</a>
+</p>
+
+<p>
+<a href="/managing_classes" class="wikilink1" title="managing_classes" data-wiki-id="managing_classes">Managing classes</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Working with Classes&quot;,&quot;hid&quot;:&quot;working_with_classes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;590-666&quot;} -->
+<h3 class="sectionedit3" id="working_with_objects">Working with Objects</h3>
+<div class="level3">
+
+<p>
+<a href="/create_a_new_object" class="wikilink1" title="create_a_new_object" data-wiki-id="create_a_new_object">Create a new object</a>
+</p>
+
+<p>
+<a href="/hiding_objects" class="wikilink1" title="hiding_objects" data-wiki-id="hiding_objects">Hiding objects</a>
+</p>
+
+<p>
+<a href="/editing_objects" class="wikilink1" title="editing_objects" data-wiki-id="editing_objects">Editing objects</a>
+</p>
+
+<p>
+<a href="/merging_objects" class="wikilink1" title="merging_objects" data-wiki-id="merging_objects">Merging objects</a>
+</p>
+
+<p>
+<a href="/breaking_an_object" class="wikilink1" title="breaking_an_object" data-wiki-id="breaking_an_object">Breaking an object</a>
+</p>
+
+<p>
+<a href="/deleting_objects" class="wikilink1" title="deleting_objects" data-wiki-id="deleting_objects">Deleting Objects</a>
+</p>
+
+<p>
+<a href="/selecting_objects" class="wikilink1" title="selecting_objects" data-wiki-id="selecting_objects">Selecting objects</a>
+</p>
+
+<p>
+<a href="/snapping_objects" class="wikilink1" title="snapping_objects" data-wiki-id="snapping_objects">Snapping objects</a>
+</p>
+
+<p>
+<a href="/measuring_dimensions" class="wikilink1" title="measuring_dimensions" data-wiki-id="measuring_dimensions">Measuring dimensions</a>
+</p>
+
+<p>
+<a href="/viewing_objects_in_3d" class="wikilink1" title="viewing_objects_in_3d" data-wiki-id="viewing_objects_in_3d">Viewing objects in 3D</a>
+</p>
+
+<p>
+<a href="/copying_objects" class="wikilink1" title="copying_objects" data-wiki-id="copying_objects">Copying objects</a>
+</p>
+
+<p>
+<a href="/pasting_objects" class="wikilink1" title="pasting_objects" data-wiki-id="pasting_objects">Pasting objects</a>
+</p>
+
+<p>
+<a href="/moving_objects" class="wikilink1" title="moving_objects" data-wiki-id="moving_objects">Moving objects</a>
+</p>
+
+<p>
+<a href="/rotating_objects" class="wikilink1" title="rotating_objects" data-wiki-id="rotating_objects">Rotating objects</a>
+</p>
+
+<p>
+<a href="/pinning_objects" class="wikilink1" title="pinning_objects" data-wiki-id="pinning_objects">Pinning objects</a>
+</p>
+
+<p>
+<a href="/undo_objects" class="wikilink1" title="undo_objects" data-wiki-id="undo_objects">Undo objects</a>
+</p>
+
+<p>
+<a href="/moving_the_architect" class="wikilink1" title="moving_the_architect" data-wiki-id="moving_the_architect">Moving the architect</a>
+</p>
+
+<p>
+<a href="/exporting_objects_to_2d" class="wikilink1" title="exporting_objects_to_2d" data-wiki-id="exporting_objects_to_2d">Exporting objects to 2D</a>
+</p>
+
+<p>
+<a href="/exporting_objects_to_3d" class="wikilink1" title="exporting_objects_to_3d" data-wiki-id="exporting_objects_to_3d">Exporting objects to 3D</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Working with Objects&quot;,&quot;hid&quot;:&quot;working_with_objects&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;667-1140&quot;} -->
+<h3 class="sectionedit4" id="object_editing_commands">Object Editing Commands</h3>
+<div class="level3">
+
+<p>
+<a href="/shifting_a_corner" class="wikilink1" title="shifting_a_corner" data-wiki-id="shifting_a_corner">Shifting a corner</a>
+</p>
+
+<p>
+<a href="/adding_a_corner" class="wikilink1" title="adding_a_corner" data-wiki-id="adding_a_corner">Adding a corner</a>
+</p>
+
+<p>
+<a href="/stretching_an_edge" class="wikilink1" title="stretching_an_edge" data-wiki-id="stretching_an_edge">Stretching an edge</a>
+</p>
+
+<p>
+<a href="/extruding_an_edge" class="wikilink1" title="extruding_an_edge" data-wiki-id="extruding_an_edge">Extruding an edge</a>
+</p>
+
+<p>
+<a href="/deleting_a_corner" class="wikilink1" title="deleting_a_corner" data-wiki-id="deleting_a_corner">Deleting a corner</a>
+</p>
+
+<p>
+<a href="/moving_a_set_of_objects" class="wikilink1" title="moving_a_set_of_objects" data-wiki-id="moving_a_set_of_objects">Moving a set of objects</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Object Editing Commands&quot;,&quot;hid&quot;:&quot;object_editing_commands&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;1141-1319&quot;} -->
+<h3 class="sectionedit5" id="display_options">Display Options</h3>
+<div class="level3">
+
+<p>
+<a href="/zooming_objects" class="wikilink1" title="zooming_objects" data-wiki-id="zooming_objects">Zooming objects</a>
+</p>
+
+<p>
+<a href="/panning_objects" class="wikilink1" title="panning_objects" data-wiki-id="panning_objects">Panning objects</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Display Options&quot;,&quot;hid&quot;:&quot;display_options&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;1320-1390&quot;} -->
+<h3 class="sectionedit6" id="keyboard_shortcuts">Keyboard Shortcuts</h3>
+<div class="level3">
+
+<p>
+<a href="/keyboard_shortcuts" class="wikilink1" title="keyboard_shortcuts" data-wiki-id="keyboard_shortcuts">Keyboard Shortcuts</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Keyboard Shortcuts&quot;,&quot;hid&quot;:&quot;keyboard_shortcuts&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;1391-1445&quot;} -->
+<h3 class="sectionedit7" id="appendix">Appendix</h3>
+<div class="level3">
+
+<p>
+<a href="/acknowledgement" class="wikilink1" title="acknowledgement" data-wiki-id="acknowledgement">Acknowledgements</a>
+</p>
+
+<p>
+<a href="/sfa_taxonomy" class="wikilink1" title="sfa_taxonomy" data-wiki-id="sfa_taxonomy">SFA Taxonomy</a>
+</p>
+
+<p>
+<a href="/well-formed_objects" class="wikilink1" title="well-formed_objects" data-wiki-id="well-formed_objects">Well-formed Objects</a>
+</p>
+
+<p>
+<a href="/tadtutorial1" class="wikilink1" title="tadtutorial1" data-wiki-id="tadtutorial1">Tutorials using AutoIT</a>
+</p>
+
+<p>
+<a href="/tos" class="wikilink1" title="tos" data-wiki-id="tos">Legal Terms and Conditions</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Appendix&quot;,&quot;hid&quot;:&quot;appendix&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;1446-1621&quot;} -->
+<h2 class="sectionedit8" id="tad_probes">TAD Probes</h2>
+<div class="level2">
+
+<p>
+<a href="/about_tad_probes" class="wikilink2" title="about_tad_probes" rel="nofollow" data-wiki-id="about_tad_probes">About TAD Probes</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;TAD Probes&quot;,&quot;hid&quot;:&quot;tad_probes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;1622-&quot;} -->								<!-- /aside -->
+								
+							</ul>
+						</nav>
+					</header>	
+					
+					<div class="sidebar-offcanvas">
+						<div id="main-sidebar" class="widget-area" role="complementary">
+							<aside id="search-2" class="widget widget_search">
+								<form action="/start" method="get" role="search" class="search doku_form" id="dw__search" accept-charset="utf-8"><input type="hidden" name="do" value="search" /><input type="hidden" name="id" value="just-in-time_modelling" /><div class="no"><input name="q" type="text" class="edit" title="[F]" accesskey="f" placeholder="Search" autocomplete="on" id="qsearch__in" value="" /><button value="1" type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>							</aside>
+							
+							<aside id="recent-posts-2" class="widget widget_recent_entries">
+								<h3 class='widget-title'>Recent / Updated Posts</h3>
+									<div class="pad2 aside include group">
+										<div class="content"><div class="group">
+																																	
+																						
+										</div></div>
+									</div>									
+							</aside>
+							
+							<aside id="categories-1" class="widget widget_categories">
+								<h3 class='widget-title'>About me...</h3>
+									<div class="pad2 aside include group">
+										<div class="content"><div class="group">
+																																</div></div>
+									</div>
+							</aside>
+							
+							<aside id="categories-2" class="widget widget_categories">
+								<h3 class='widget-title'>Administation</h3>
+								
+								<!-- USER TOOLS -->
+																	<div id="dokuwiki__usertools2">
+										<h3 class="a11y">User Tools</h3>
+										<ul>
+											<li><a href="/just-in-time_modelling?do=admin"  class="action admin" rel="nofollow" title="Admin">Admin</a></li><li><a href="/just-in-time_modelling?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In">Log In</a></li>										</ul>
+									</div>
+																
+							</aside>
+														
+						</div>
+					</div>
+					
+				</div>
+
+				<div id="primary" class="content-area col-lg-9" itemprop="mainContentOfPage">
+															
+					<div id="content" class="site-content" role="main">							
+						<!-- wrapper -->
+						<div class="wrapper group">
+							
+							
+<!-- ********** CONTENT ********** -->
+<div id="dokuwiki__content"><div class="pad group">
+	
+	
+	<div class="page group">
+				<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'teamtad/documentation'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+<!--script src="//load.sumome.com/" data-sumo-site-id="cfb9d81ee022a44869bcd33db5d16c96314de0af7797b0ee16fac40d1a39413d" async="async"></script-->
+<script type="text/javascript">/*<![CDATA[*/
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92417543-1', 'auto');
+  ga('send', 'pageview');
+
+  
+  
+/*!]]>*/</script>
+
+		<!-- wikipage start -->
+		
+<h3 class="sectionedit1" id="just_in_time_modelling">Just in time modelling</h3>
+<div class="level3">
+
+<p>
+Everyone has heard of JIT (Just-in-time) For e.g. Dell supposedly uses JIT manufacturing to keep their inventory costs low and quality high. They have processes that ensures that detects what kind of computers are being ordered by their customers; and all their assembly kicks into place <em>just-in-time</em> Reputedly; they do not have much inventory because of this.
+</p>
+
+<p>
+<em>Just in time modelling</em> is a concept that allows TAD to be a lean, mean machine. Many have wondered why is it that TAD files can be so drastically small. That is because, the author realized that it is pointless to give <em>slots</em> into the data structure to store potential properties of the elements of the design.
+</p>
+
+<p>
+ Why so?
+</p>
+
+<p>
+Because when you are a designer, it is <em>you</em> who dictates what properties those elements should have  and not any software programmer. So Sabu invented a neat way of combining data with code that can further enrich the data. Quite often that additional power is not used by the designer and hence the TAD file size remains small. But if the designer so needs; he/she can decide exactly what additional properties need to be given to the elements in the design.
+</p>
+
+<p>
+This is very suitable for a design process that starts from very early stages of design and proceeds to later stages – at every stage the designer would surely get surprises which would change the way the architecture elements 
+</p>
+
+<p>
+Anecdotally speaking:  here is the wife of a client insisting that the flooring in the design has to be of marble just because she happened to visit a friend who had that marble floor <img src="/lib/images/smileys/smile.svg" class="icon smiley" alt=":-)" />  … there can be many such examples. Architectural design is full of such demands imposed during the design process.  
+</p>
+
+<p>
+One can even say that it is because TAD allows such last minute, just-in-time changes, it is <em>extremely realistic</em> to the workings of a design firm – especially in developing countries.
+</p>
+
+<p>
+<strong>What are slots in the data structure?</strong><br/>
+
+Ah, I forgot to explain. In conventional BIM and other design software; the software company assumes certain properties that the design may need and inserts slots into the data – which can be filled by the designer as he/she develops the design in their software.  In software parlance; one would say that the structure to receive standard properties are <em>hard-coded</em>
+</p>
+
+<p>
+You may think that what would happen if those slots are not filled? Well, all such software gracefully handles the situation where the designer did not fill up those properties.  But that does not mean those empty slots would go away. In software and maths, even zero is a value – so all such unfilled slots (aka properties) would still occupy considerable space – not just that; the software needs to load in all those empty slots at startup when loading the design – one of the main reasons why not just is their data very large but it also takes a long time to load (There are other reasons too – I am possibly over-simplifying the case) 
+</p>
+
+<p>
+You may wonder why is that other software companies did NOT adopt such an approach? Well the simple answer is to go and ask them <img src="/lib/images/smileys/smile.svg" class="icon smiley" alt=":-)" />
+</p>
+
+<p>
+But I suspect it is because of the tendency of some people to think that the world is a nicely <em>deterministic</em> place – where all the designs out there have <em>explainable</em> properties. It kind of looks apparent, doesn&#039;t it? After all if we were to talk about, say flooring, what could be the properties that would represent that element? 
+</p>
+
+<p>
+One may think: density, hardness, color, texture… and so on. It looks as if they can all be conveniently listed and therefore pre-prepared slots can be given to the designer in the software; for the designer to fill in as needed.  TAD is a lot more humble:  
+</p>
+
+<p>
+TAD says <em>“I really do not know what all properties that you may need to enrich a particular element of the design. So I have slots only for the bare minimum. However, if you want to add more properties, be my guest and add it thru ARDELA; the internal scripting engine inside TAD”</em>
+</p>
+
+<p>
+Here is a curious mythological story from India:  In the story of <em>Mahabaratha</em> is an incident where one important person (Draupadi) laughed when she saw her cousin slip and fall on a smoothly polished floor – and that person got so embarrassed and annoyed – one version of the fable states that this insult went deep. 
+</p>
+
+<p>
+Now imagine having a property of the floor called <em>insult-value</em> … This may sound strange to someone – but it takes all kinds of interpretations to make up this world. A software developer cannot dictate what should be represented and what not. Especially in architecture. Especially in architecture built in developing countries – where there are old traditions, craftsmanship and value systems  and some of those can&#039;t be codified by a software developer. Only the designer may elect to do so <em>just in time</em> when the importance of that property is impressed upon the designer.
+</p>
+
+<p>
+From version 6.8 of TAD, it even allows <a href="/haxeconvert" class="wikilink1" title="haxeconvert" data-wiki-id="haxeconvert">exporting to Haxe</a> . With <a href="https://haxe.org" class="urlextern" target="_blank" title="https://haxe.org" rel="ugc nofollow noopener">Haxe</a> you can take your model AND all the properties in it; into another computer language (you have choices there!) – which makes the use of TAD really wide open! This approach again respects the fact that it is the <em>designer</em> who would want to add more properties; and not really the software developer.
+</p>
+
+<p>
+To put it simply; TAD avoids bringing complexities into the hands of the designer. The person at the helm of TAD usually is an important person in the office (often the main designer) He or she would have other things to attend to. TAD gives expression to those who want to flesh out salient points to be considered when designing.  The juniors in the office can then take up the rest later without the main person around. 
+</p>
+
+<p>
+Hence TAD is very realistic and it can surely help the main designers add a lot of richness in designing – a richness that opens up <em>just in time</em> keeping pace with the way the design is evolved!
+</p>
+
+<p>
+To put it simply; TAD is a lot more practical that seen in the way design properties are handled in other software. 
+</p>
+
+<p>
+You can even say the concept of <em>just-in-time</em> modelling first started in TAD! Well you should. TAD had this approach from 1989!
+</p>
+
+</div>
+
+		<!-- wikipage stop -->
+		<hr/>
+<i><small>Press F1 <b>inside</b> the application to read context-sensitive help directly in the application itself<a><br/> <b><a href="javascript:history.go(-1)" title="Go back">&#8592;</a></b> <a title='Edit this page (Needs login!)' href='?do=edit'>&#8712;</a></small></i>
+	</div>
+
+	<div class="docInfo">
+		Last modified: le 2023/04/22 20:59	</div>
+
+	</div></div>
+<!-- /content -->
+
+<hr class="a11y" />
+<!-- PAGE ACTIONS -->
+<div id="dokuwiki__pagetools">
+	<h3 class="a11y">Page Tools</h3>
+	<div class="tools">
+		<ul>
+			<li><a href="/just-in-time_modelling?do=backlink"  class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="javascript:void(0);" class="fold_unfold_all" onclick="fold_unfold_all();" rel="nofollow" title="Fold/unfold all"><span>Fold/unfold all</span></a></li><li><a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>		</ul>
+	</div>
+</div>
+
+						</div>
+						<!-- /wrapper -->					
+					</div>
+
+					<footer class="site-info" itemscope itemtype="http://schema.org/WPFooter">
+						<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Inspired by WordPress</a>. Theme: Flat 1.7.6 by
+						<a rel="nofollow" href="https://themeisle.com/themes/flat/" title="Flat WordPress Theme">Themeisle</a> adapted for 
+						<a href="https://www.dokuwiki.org/">Dokuwiki</a> by <a href="https://beemoon.fr">www.beemoon.com</a>
+					</footer>
+					
+				</div>
+					
+			</div>
+		</div>
+		
+		
+	<div class="content-area col-lg-12" style="text-align:center;margin:15px;">
+		<!-- ********** FOOTER ********** -->
+		<div id="dokuwiki__footer"><div class="pad">
+			<div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" class="urlextern" target="_blank">CC Attribution-Noncommercial-Share Alike 4.0 International</a></bdi></div>
+			<div class="buttons">
+				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" target="_blank"><img src="/lib/images/license/button/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International" /></a>				<a href="http://www.dokuwiki.org/donate" title="Donate" target="_blank"><img
+					src="/lib/tpl/flat/images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
+				<a href="http://php.net" title="Powered by PHP" target="_blank"><img
+					src="/lib/tpl/flat/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
+				<a href="http://validator.w3.org/check/referer" title="Valid HTML5" target="_blank"><img
+					src="/lib/tpl/flat/images/button-html5.png" width="80" height="15" alt="Valid HTML5" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img
+					src="/lib/tpl/flat/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+				<a href="http://dokuwiki.org/" title="Driven by DokuWiki" target="_blank"><img
+					src="/lib/tpl/flat/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+			</div>
+		</div>
+		</div>
+		<!-- /footer -->
+
+			<script>
+	var $accordion = jQuery('#accordion');
+	$accordion.accordion();
+	</script>
+	</div>
+</div>
+			
+	</div>
+</div>
+						
+	
+<div class="no"><img src="/lib/exe/taskrunner.php?id=just-in-time_modelling&amp;1690380172" width="2" height="1" alt="" /></div>
+<div id="screen__mode" class="no"></div>
+    
+</body>
+</html>

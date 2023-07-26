@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        about_tad.jpg        [TAD Docs]
+    </title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="TAD Docs"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/tad_concepts?do=index" title="Sitemap"/>
+<link rel="manifest" href="/lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/feed.php?mode=list&amp;ns="/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/_export/xhtml/tad_concepts"/>
+<link rel="stylesheet" href="/lib/exe/css.php?t=flat&amp;tseed=d9ce8de5d2a7a04a016c0767e5ac81aa"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='';var JSINFO = {"id":"tad_concepts","namespace":"","ACT":"show","useHeadingNavigation":1,"useHeadingContent":0};
+/*!]]>*/</script>
+<script src="/lib/exe/jquery.php?tseed=f0349b609f9b91a485af8fd8ecd4aea4" defer="defer">/*<![CDATA[*/
+/*!]]>*/</script>
+<script src="/lib/exe/js.php?t=flat&amp;tseed=d9ce8de5d2a7a04a016c0767e5ac81aa" defer="defer">/*<![CDATA[*/
+/*!]]>*/</script>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="/lib/tpl/flat/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/flat/images/apple-touch-icon.png" />
+    </head>
+
+<body>
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site dokuwiki mode_ tpl_flat   ">
+
+        
+				<div id="secondary" class="col-lg-3">
+					
+					<header id="masthead" class="site-header">
+						<div class="hgroup">
+							<h1 class="site-title display-title">
+									<span itemprop="name">
+										<a href="/start" >TAD Docs</a>									</span>
+							
+<script>
+var trlng='';
+//var url= "https://translate.google.com/translate?sl=en&tl="+trlng+"&u="+encodeURI(window.location.href);
+ var urlpath = window.location.pathname
+ var userLang = navigator.language || navigator.userLanguage;
+ var url = "https://docs-teamtad-com.translate.goog"+urlpath+"?_x_tr_sl=en&_x_tr_tl="+userLang+"&_x_tr_sch=http";
+document.write("<style>.tracl a {font-size:8pt; color:white;} </style><div class='tracl'><a href='"+url+"' >Translate</a></div>");
+</script>
+			
+							</h1>
+							<h2 itemprop="description" class="site-description">
+														</h2>
+						</div>
+						<button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas" aria-label="Sidebar">
+							<i class="fa fa-bars"></i>
+						</button>
+						<button type="button" class="btn btn-link hidden-lg toggle-navigation" aria-label="Navigation Menu">
+							<i class="fa fa-gear"></i>
+						</button>
+						<nav id="site-navigation" class="navigation main-navigation">
+							<ul id="menu-menu" class="nav-menu">
+								<!-- ********** ASIDE ********** -->
+																		
+<p>
+<a href="/start" class="wikilink1" title="start" data-wiki-id="start">Welcome</a>
+</p>
+
+<h2 class="sectionedit1" id="tad_designer">TAD Designer</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="/about_tad_designer" class="wikilink1" title="about_tad_designer" data-wiki-id="about_tad_designer">About TAD Designer</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/money_matters" class="wikilink1" title="money_matters" data-wiki-id="money_matters">An Appeal</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/whysignup" class="wikilink1" title="whysignup" data-wiki-id="whysignup">Why sign up?</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/faq" class="wikilink1" title="faq" data-wiki-id="faq">FAQ</a></div>
+</li>
+</ul>
+
+<p>
+<em>Initial steps</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/to_download_and_install_tad" class="wikilink1" title="to_download_and_install_tad" data-wiki-id="to_download_and_install_tad">Requirements</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/registration" class="wikilink1" title="registration" data-wiki-id="registration">Registration</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/update" class="wikilink1" title="update" data-wiki-id="update">Install or update</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/how_to_get_support" class="wikilink1" title="how_to_get_support" data-wiki-id="how_to_get_support">How to get support</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/bugs_and_suggestions" class="wikilink1" title="bugs_and_suggestions" data-wiki-id="bugs_and_suggestions">Bugs and Suggestions</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/tadchat" class="wikilink1" title="tadchat" data-wiki-id="tadchat">How to use chat</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/video_tutorials" class="wikilink1" title="video_tutorials" data-wiki-id="video_tutorials">Videos and Podcasts</a></div>
+</li>
+</ul>
+
+<p>
+<em>First steps into TAD</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/tad_concepts" class="wikilink1" title="tad_concepts" data-wiki-id="tad_concepts">TAD Concepts</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/concept_of_classes_and_objects" class="wikilink1" title="concept_of_classes_and_objects" data-wiki-id="concept_of_classes_and_objects">Concept of Classes and Objects</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/understanding_the_user_interface" class="wikilink1" title="understanding_the_user_interface" data-wiki-id="understanding_the_user_interface">Understanding the User Interface</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/settings" class="wikilink1" title="settings" data-wiki-id="settings">Settings</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/advanced" class="wikilink1" title="advanced" data-wiki-id="advanced">Special Capabilities</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;TAD Designer&quot;,&quot;hid&quot;:&quot;tad_designer&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;20-589&quot;} -->
+<h3 class="sectionedit2" id="working_with_classes">Working with Classes</h3>
+<div class="level3">
+
+<p>
+<a href="/creating_classes" class="wikilink1" title="creating_classes" data-wiki-id="creating_classes">Creating classes</a>
+</p>
+
+<p>
+<a href="/managing_classes" class="wikilink1" title="managing_classes" data-wiki-id="managing_classes">Managing classes</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Working with Classes&quot;,&quot;hid&quot;:&quot;working_with_classes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;590-666&quot;} -->
+<h3 class="sectionedit3" id="working_with_objects">Working with Objects</h3>
+<div class="level3">
+
+<p>
+<a href="/create_a_new_object" class="wikilink1" title="create_a_new_object" data-wiki-id="create_a_new_object">Create a new object</a>
+</p>
+
+<p>
+<a href="/hiding_objects" class="wikilink1" title="hiding_objects" data-wiki-id="hiding_objects">Hiding objects</a>
+</p>
+
+<p>
+<a href="/editing_objects" class="wikilink1" title="editing_objects" data-wiki-id="editing_objects">Editing objects</a>
+</p>
+
+<p>
+<a href="/merging_objects" class="wikilink1" title="merging_objects" data-wiki-id="merging_objects">Merging objects</a>
+</p>
+
+<p>
+<a href="/breaking_an_object" class="wikilink1" title="breaking_an_object" data-wiki-id="breaking_an_object">Breaking an object</a>
+</p>
+
+<p>
+<a href="/deleting_objects" class="wikilink1" title="deleting_objects" data-wiki-id="deleting_objects">Deleting Objects</a>
+</p>
+
+<p>
+<a href="/selecting_objects" class="wikilink1" title="selecting_objects" data-wiki-id="selecting_objects">Selecting objects</a>
+</p>
+
+<p>
+<a href="/snapping_objects" class="wikilink1" title="snapping_objects" data-wiki-id="snapping_objects">Snapping objects</a>
+</p>
+
+<p>
+<a href="/measuring_dimensions" class="wikilink1" title="measuring_dimensions" data-wiki-id="measuring_dimensions">Measuring dimensions</a>
+</p>
+
+<p>
+<a href="/viewing_objects_in_3d" class="wikilink1" title="viewing_objects_in_3d" data-wiki-id="viewing_objects_in_3d">Viewing objects in 3D</a>
+</p>
+
+<p>
+<a href="/copying_objects" class="wikilink1" title="copying_objects" data-wiki-id="copying_objects">Copying objects</a>
+</p>
+
+<p>
+<a href="/pasting_objects" class="wikilink1" title="pasting_objects" data-wiki-id="pasting_objects">Pasting objects</a>
+</p>
+
+<p>
+<a href="/moving_objects" class="wikilink1" title="moving_objects" data-wiki-id="moving_objects">Moving objects</a>
+</p>
+
+<p>
+<a href="/rotating_objects" class="wikilink1" title="rotating_objects" data-wiki-id="rotating_objects">Rotating objects</a>
+</p>
+
+<p>
+<a href="/pinning_objects" class="wikilink1" title="pinning_objects" data-wiki-id="pinning_objects">Pinning objects</a>
+</p>
+
+<p>
+<a href="/undo_objects" class="wikilink1" title="undo_objects" data-wiki-id="undo_objects">Undo objects</a>
+</p>
+
+<p>
+<a href="/moving_the_architect" class="wikilink1" title="moving_the_architect" data-wiki-id="moving_the_architect">Moving the architect</a>
+</p>
+
+<p>
+<a href="/exporting_objects_to_2d" class="wikilink1" title="exporting_objects_to_2d" data-wiki-id="exporting_objects_to_2d">Exporting objects to 2D</a>
+</p>
+
+<p>
+<a href="/exporting_objects_to_3d" class="wikilink1" title="exporting_objects_to_3d" data-wiki-id="exporting_objects_to_3d">Exporting objects to 3D</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Working with Objects&quot;,&quot;hid&quot;:&quot;working_with_objects&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;667-1140&quot;} -->
+<h3 class="sectionedit4" id="object_editing_commands">Object Editing Commands</h3>
+<div class="level3">
+
+<p>
+<a href="/shifting_a_corner" class="wikilink1" title="shifting_a_corner" data-wiki-id="shifting_a_corner">Shifting a corner</a>
+</p>
+
+<p>
+<a href="/adding_a_corner" class="wikilink1" title="adding_a_corner" data-wiki-id="adding_a_corner">Adding a corner</a>
+</p>
+
+<p>
+<a href="/stretching_an_edge" class="wikilink1" title="stretching_an_edge" data-wiki-id="stretching_an_edge">Stretching an edge</a>
+</p>
+
+<p>
+<a href="/extruding_an_edge" class="wikilink1" title="extruding_an_edge" data-wiki-id="extruding_an_edge">Extruding an edge</a>
+</p>
+
+<p>
+<a href="/deleting_a_corner" class="wikilink1" title="deleting_a_corner" data-wiki-id="deleting_a_corner">Deleting a corner</a>
+</p>
+
+<p>
+<a href="/moving_a_set_of_objects" class="wikilink1" title="moving_a_set_of_objects" data-wiki-id="moving_a_set_of_objects">Moving a set of objects</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Object Editing Commands&quot;,&quot;hid&quot;:&quot;object_editing_commands&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;1141-1319&quot;} -->
+<h3 class="sectionedit5" id="display_options">Display Options</h3>
+<div class="level3">
+
+<p>
+<a href="/zooming_objects" class="wikilink1" title="zooming_objects" data-wiki-id="zooming_objects">Zooming objects</a>
+</p>
+
+<p>
+<a href="/panning_objects" class="wikilink1" title="panning_objects" data-wiki-id="panning_objects">Panning objects</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Display Options&quot;,&quot;hid&quot;:&quot;display_options&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;1320-1390&quot;} -->
+<h3 class="sectionedit6" id="keyboard_shortcuts">Keyboard Shortcuts</h3>
+<div class="level3">
+
+<p>
+<a href="/keyboard_shortcuts" class="wikilink1" title="keyboard_shortcuts" data-wiki-id="keyboard_shortcuts">Keyboard Shortcuts</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Keyboard Shortcuts&quot;,&quot;hid&quot;:&quot;keyboard_shortcuts&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;1391-1445&quot;} -->
+<h3 class="sectionedit7" id="appendix">Appendix</h3>
+<div class="level3">
+
+<p>
+<a href="/acknowledgement" class="wikilink1" title="acknowledgement" data-wiki-id="acknowledgement">Acknowledgements</a>
+</p>
+
+<p>
+<a href="/sfa_taxonomy" class="wikilink1" title="sfa_taxonomy" data-wiki-id="sfa_taxonomy">SFA Taxonomy</a>
+</p>
+
+<p>
+<a href="/well-formed_objects" class="wikilink1" title="well-formed_objects" data-wiki-id="well-formed_objects">Well-formed Objects</a>
+</p>
+
+<p>
+<a href="/tadtutorial1" class="wikilink1" title="tadtutorial1" data-wiki-id="tadtutorial1">Tutorials using AutoIT</a>
+</p>
+
+<p>
+<a href="/tos" class="wikilink1" title="tos" data-wiki-id="tos">Legal Terms and Conditions</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Appendix&quot;,&quot;hid&quot;:&quot;appendix&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;1446-1621&quot;} -->
+<h2 class="sectionedit8" id="tad_probes">TAD Probes</h2>
+<div class="level2">
+
+<p>
+<a href="/about_tad_probes" class="wikilink2" title="about_tad_probes" rel="nofollow" data-wiki-id="about_tad_probes">About TAD Probes</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;TAD Probes&quot;,&quot;hid&quot;:&quot;tad_probes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;1622-&quot;} -->								<!-- /aside -->
+								
+							</ul>
+						</nav>
+					</header>	
+					
+					<div class="sidebar-offcanvas">
+						<div id="main-sidebar" class="widget-area" role="complementary">
+							<aside id="search-2" class="widget widget_search">
+								<form action="/start" method="get" role="search" class="search doku_form" id="dw__search" accept-charset="utf-8"><input type="hidden" name="do" value="search" /><input type="hidden" name="id" value="tad_concepts" /><div class="no"><input name="q" type="text" class="edit" title="[F]" accesskey="f" placeholder="Search" autocomplete="on" id="qsearch__in" value="" /><button value="1" type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>							</aside>
+							
+							<aside id="recent-posts-2" class="widget widget_recent_entries">
+								<h3 class='widget-title'>Recent / Updated Posts</h3>
+									<div class="pad2 aside include group">
+										<div class="content"><div class="group">
+																																	
+																						
+										</div></div>
+									</div>									
+							</aside>
+							
+							<aside id="categories-1" class="widget widget_categories">
+								<h3 class='widget-title'>About me...</h3>
+									<div class="pad2 aside include group">
+										<div class="content"><div class="group">
+																																</div></div>
+									</div>
+							</aside>
+							
+							<aside id="categories-2" class="widget widget_categories">
+								<h3 class='widget-title'>Administation</h3>
+								
+								<!-- USER TOOLS -->
+																	<div id="dokuwiki__usertools2">
+										<h3 class="a11y">User Tools</h3>
+										<ul>
+											<li><a href="/tad_concepts?do=admin"  class="action admin" rel="nofollow" title="Admin">Admin</a></li><li><a href="/tad_concepts?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In">Log In</a></li>										</ul>
+									</div>
+																
+							</aside>
+														
+						</div>
+					</div>
+					
+				</div>
+
+				<div id="primary" class="content-area col-lg-9" itemprop="mainContentOfPage">
+															
+					<div id="content" class="site-content" role="main">							
+						<!-- wrapper -->
+						<div class="wrapper group">
+							
+							
+<!-- ********** CONTENT ********** -->
+<div id="dokuwiki__content"><div class="pad group">
+	
+	
+	<div class="page group">
+				<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'teamtad/documentation'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+<!--script src="//load.sumome.com/" data-sumo-site-id="cfb9d81ee022a44869bcd33db5d16c96314de0af7797b0ee16fac40d1a39413d" async="async"></script-->
+<script type="text/javascript">/*<![CDATA[*/
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92417543-1', 'auto');
+  ga('send', 'pageview');
+
+  
+  
+/*!]]>*/</script>
+
+		<!-- wikipage start -->
+		
+<h1 class="sectionedit1" id="concepts_inside_tad">Concepts inside TAD</h1>
+<div class="level1">
+
+<p>
+<strong>Did you expect TAD to be similar to CAD?</strong><br/>
+
+<em>If you are in a hurry and you thought TAD should be very similar to CAD (especially the popular drafting software AutoCAD), let me clear this immediately before you read further. TAD does not work like CAD.  <a href="/differences_between_cad_and_tad" class="wikilink1" title="differences_between_cad_and_tad" data-wiki-id="differences_between_cad_and_tad">An entire chapter here is dedicated to explain the differences</a> </em>
+</p>
+
+<p>
+<strong>A bird&#039;s eye view of the core reason for TAD</strong><br/>
+
+See this article, which explains <a href="/coreconcept" class="wikilink1" title="coreconcept" data-wiki-id="coreconcept">the core concept</a> which is good way to start understanding TAD.
+</p>
+
+<p>
+<strong>Who is TAD meant for?</strong><br/>
+
+TAD in its current form (i.e. using the design component called TAD Designer Lite)  is meant for architects offices – small and medium size. Especially in developing countries. These offices typically are often in a metaphorical fire-fighting exercise daily.  They are plagued by employee problems, problems of getting fees on time, getting underpaid and several other issues. TAD is actually for the main designers there. 
+</p>
+
+<p>
+Why?  TAD releases a lot of time for the main designers.  You see; in most of these small and medium size offices; the top person (or partners) are actually quite talented. But the daily fire-fighting leads to very little time for actual designing. That is why TAD comes in there; and allows the main person to work efficiently in fleshing out a design. In very little time. It is then very easy to delegate work to juniors in the office. 
+</p>
+
+<p>
+<em>The author of TAD; Sabu Francis, had his architects practice working in such a manner. He hardly had any time for design – but with TAD, he was sure that enough attention was being given to the designing – and he could then delegate work to others as he went chasing clients, etc.</em>
+</p>
+
+<p>
+TAD is actually quite minimalist and packs in a huge amount of power with very little in terms of  what is demanded by the user interface. Though the UI is quite different from conventional CAD and BIM software; it is not that there are tons of features to be learned. So if you put your mind to it, TAD can be learned even in half a day. 
+</p>
+
+<p>
+As TAD is released as a freeware (and later on it would be open-source too) this has attracted many interested amateurs who want to have a go at architectural designing. They too are welcome – but since TAD is so intimately tied up with the way professional architects in developing countries work, they may miss bells and whistles of a slick interface, etc. 
+</p>
+
+<p>
+However the entire ecology of TAD that is being setup will be very useful for such interested amateurs.  TAD is being worked out so that there is an online design catalogue from where half-finished designed can be chosen for you to work on further, etc.  Just that we are cash-strapped and people strapped. So kindly <a href="/money_matters" class="wikilink1" title="money_matters" data-wiki-id="money_matters">read our appeal</a> and contribute!
+</p>
+
+<p>
+What were saying in sort is that TAD is not just the downloadable design software. There is a lot more. Our <abbr title="Frequently Asked Questions">FAQ</abbr> explains the term “TAD” for more details.
+</p>
+
+<p>
+<strong>Copernican revolution: First start with spaces</strong>
+</p>
+
+<p>
+The central concepts in TAD completely upturns the concepts that you may have found in all current CAD and BIM software. 
+</p>
+
+<p>
+CAD and BIM software fleshes out what is built in any piece of architecture. Spaces (the way we recognize it as such via rooms, and so on) are poorly represented. In fact, in many of those software it is by visual examination of the screen (of a trained-eye of an architect) that one can figure out the boundaries of spaces present in the design. Those software itself (if it were a person, metaphorically) does not understand or recognize spaces.
+</p>
+
+<p>
+In TAD, you first work on the spaces. The system works out where are the built-matter; mostly on its own – depending on how you arranged the spaces of your design.
+</p>
+
+<p>
+If we were pompous about this; we would have called it a “Copernican revolution” (<em>hmmm…maybe we should <img src="/lib/images/smileys/smile.svg" class="icon smiley" alt=":-)" /> )</em>  Copernicus was the first scientist who proposed that it was the Earth that revolved around the Sun unlike the earlier belief about the Sun rotating around the Earth
+</p>
+
+<p>
+So, before TAD came on the scene – everyone thought that the best way to represent buildings as it is being designed, is to first talk about the built-matter. 
+</p>
+
+<p>
+Not so. 
+</p>
+
+<p>
+Take a 180 degree turn – talk of the spaces first. The models become much, much smaller (and therefore much more easily handled) and you get to the job of figuring out what happens inside your design – after all, people go about doing their activities inside spaces. We are not termites who move inside walls!
+</p>
+
+<p>
+That is essentially what this is all about. To begin understanding the concepts of TAD
+</p>
+
+<p>
+It is quite simple; actually – simpler than what you may have encountered. You may have seen the negatives of photographs would generate the final “positve” photograph – in an analogous fashion, inside TAD you model the spaces. As you keep working; it would either figure out where the built-matter is inside your design or you would add built-matter yourself just like any CAD/BIM software
+</p>
+
+<p>
+Which makes it quite powerful: It can actually model BOTH spaces as well as built-matter. TAD recognizes six kind of fundamental “alphabets” of architecture – these are listed below.
+</p>
+
+<p>
+Why get into linguistics you may wonder.? <a href="/critical_linguistic_concepts" class="wikilink1" title="critical_linguistic_concepts" data-wiki-id="critical_linguistic_concepts">That is explained here</a>
+</p>
+
+<p>
+<strong>What are the advantages?</strong>
+</p>
+
+<p>
+There are many – and we have another page explaining those in detail. But for now let me give one major advantage. Which is, you can start your designing much more early than what you would have done otherwise. 
+</p>
+
+<p>
+Usually, when one uses CAD/BIM software; there is a part in the designing which is often not spoken about explicit;y. That is the time when you are doodling on pieces of paper; may be even a tissue paper as you wait at a restaurant fleshing out the initial stages of your architectural project. That is the part which has never been computerized.
+</p>
+
+<p>
+TAD computerizes that doodling stage. You can choose to keep you design raw and rough and doodle like – but you can then proceed further and make it a lot more accurate – as accurate as you need.
+</p>
+
+<p>
+It is the only designing software we know of that actually is flexible enough to be used as a doodling tool and yet, at the same time, it gives you sufficient objectivity. So you can get to your calculations quite fast – such as areas, set-backs and so on.  It even provides draft-views; both of the exterior and interior – which you can walk around and into, as your design unfolds. 
+</p>
+
+<p>
+TAD does not (currently) do generative modeling – however, we would soon be introducing some architectural elements inside your design that can be built using a <em>generative</em> design process. That means, you have full freedom on the creative aspects of your design. We do not assume any particular theory of design or architectural styles – you choose and work with what suits you
+</p>
+
+<p>
+When we speak of TAD here; I really mean “TAD Designer” – the desktop designing component of TAD (We sometimes use it synonymously – though the word “TAD” strictly speaking, stands for the entire Architect&#039;s desktop platform.
+</p>
+
+<p>
+<strong>Just in time modelling</strong>
+</p>
+
+<p>
+Some people wonder why is that TAD claims to be a kind of BIM (Building Information Modeler) and yet when you start using it, it almost looks simplistic. The files produced  by TAD are also extremely small and TAD itself can work with very little resources. 
+</p>
+
+<p>
+That is because of a big conceptual advantage in TAD… it uses something called <em>just-in-time modelling</em>  This needs to be carefully understood and hence it is <a href="/just-in-time_modelling" class="wikilink1" title="just-in-time_modelling" data-wiki-id="just-in-time_modelling">explained separately here</a>
+</p>
+
+<p>
+<strong>Working inside TAD Designer</strong>
+</p>
+
+<p>
+When you begin a design; you would usually create and place 2D shapes (that later on become 3D, whenever you want to flesh it out in 3D) and then you can edit those shapes to your hearts content. We use the word “object” to generically refer to each piece you put in there. The “object” has to be given a name. TAD Designer religiously remembers the name of the object you had given, and does not get confused even if you happen to edit that shape and/or make that into a 3D volume.
+</p>
+
+<p>
+These objects are gathered into various “classes” The concept of Classes and Objects is so important, that wwe have a different topic that explains that in detail. See <a href="/concept_of_classes_and_objects" class="wikilink1" title="concept_of_classes_and_objects" data-wiki-id="concept_of_classes_and_objects"> here</a>
+</p>
+
+<p>
+TAD supports and implements the fractal theories in Geometry.
+</p>
+
+<p>
+<em><strong>Fig.</strong> 3D model of a bungalow created in TAD and rendered using TurboCAD</em>
+  <a href="/_detail/about_tad.jpg?id=tad_concepts" class="media" title="about_tad.jpg"><img src="/_media/about_tad.jpg" class="media" loading="lazy" title="about_tad.jpg" alt="about_tad.jpg" /></a>
+</p>
+
+</div>
+<div class="plugin_include_content plugin_include__programconcepts" id="plugin_include__programconcepts">
+<div class="level1">
+
+<p>
+<strong>See also:</strong> <a href="/metaphors" class="wikilink1" title="metaphors" data-wiki-id="metaphors">Metaphors</a> | <a href="/taxonomy" class="wikilink1" title="taxonomy" data-wiki-id="taxonomy">Taxonomy</a>
+</p>
+
+</div>
+</div>
+<div class="level1">
+
+</div>
+<div class="plugin_include_content plugin_include__conceptuals" id="plugin_include__conceptuals">
+<div class="level1">
+
+<p>
+<strong>See also:</strong> <a href="/embellishment" class="wikilink1" title="embellishment" data-wiki-id="embellishment">embellishment</a> | <a href="/objects" class="wikilink1" title="objects" data-wiki-id="objects">objects</a> | <a href="/classes" class="wikilink1" title="classes" data-wiki-id="classes">classes</a> | <a href="/concept_of_classes_and_objects" class="wikilink1" title="concept_of_classes_and_objects" data-wiki-id="concept_of_classes_and_objects"> See more details on classes and objects</a>
+</p>
+
+</div>
+</div>
+<div class="level1">
+
+</div>
+
+		<!-- wikipage stop -->
+		<hr/>
+<i><small>Press F1 <b>inside</b> the application to read context-sensitive help directly in the application itself<a><br/> <b><a href="javascript:history.go(-1)" title="Go back">&#8592;</a></b> <a title='Edit this page (Needs login!)' href='?do=edit'>&#8712;</a></small></i>
+	</div>
+
+	<div class="docInfo">
+		Last modified: le 2023/04/22 20:59	</div>
+
+	</div></div>
+<!-- /content -->
+
+<hr class="a11y" />
+<!-- PAGE ACTIONS -->
+<div id="dokuwiki__pagetools">
+	<h3 class="a11y">Page Tools</h3>
+	<div class="tools">
+		<ul>
+			<li><a href="/tad_concepts?do=backlink"  class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="javascript:void(0);" class="fold_unfold_all" onclick="fold_unfold_all();" rel="nofollow" title="Fold/unfold all"><span>Fold/unfold all</span></a></li><li><a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>		</ul>
+	</div>
+</div>
+
+						</div>
+						<!-- /wrapper -->					
+					</div>
+
+					<footer class="site-info" itemscope itemtype="http://schema.org/WPFooter">
+						<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Inspired by WordPress</a>. Theme: Flat 1.7.6 by
+						<a rel="nofollow" href="https://themeisle.com/themes/flat/" title="Flat WordPress Theme">Themeisle</a> adapted for 
+						<a href="https://www.dokuwiki.org/">Dokuwiki</a> by <a href="https://beemoon.fr">www.beemoon.com</a>
+					</footer>
+					
+				</div>
+					
+			</div>
+		</div>
+		
+		
+	<div class="content-area col-lg-12" style="text-align:center;margin:15px;">
+		<!-- ********** FOOTER ********** -->
+		<div id="dokuwiki__footer"><div class="pad">
+			<div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" class="urlextern" target="_blank">CC Attribution-Noncommercial-Share Alike 4.0 International</a></bdi></div>
+			<div class="buttons">
+				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" target="_blank"><img src="/lib/images/license/button/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International" /></a>				<a href="http://www.dokuwiki.org/donate" title="Donate" target="_blank"><img
+					src="/lib/tpl/flat/images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
+				<a href="http://php.net" title="Powered by PHP" target="_blank"><img
+					src="/lib/tpl/flat/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
+				<a href="http://validator.w3.org/check/referer" title="Valid HTML5" target="_blank"><img
+					src="/lib/tpl/flat/images/button-html5.png" width="80" height="15" alt="Valid HTML5" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img
+					src="/lib/tpl/flat/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+				<a href="http://dokuwiki.org/" title="Driven by DokuWiki" target="_blank"><img
+					src="/lib/tpl/flat/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+			</div>
+		</div>
+		</div>
+		<!-- /footer -->
+
+			<script>
+	var $accordion = jQuery('#accordion');
+	$accordion.accordion();
+	</script>
+	</div>
+</div>
+			
+	</div>
+</div>
+
+        <div class="wrapper group" id="dokuwiki__detail">
+
+            <!-- ********** CONTENT ********** -->
+            <div id="dokuwiki__content"><div class="pad group">
+                
+                                    <div class="pageId"><span>about_tad.jpg</span></div>
+                
+                <div class="page group">
+                                        <script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'teamtad/documentation'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+<!--script src="//load.sumome.com/" data-sumo-site-id="cfb9d81ee022a44869bcd33db5d16c96314de0af7797b0ee16fac40d1a39413d" async="async"></script-->
+<script type="text/javascript">/*<![CDATA[*/
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92417543-1', 'auto');
+  ga('send', 'pageview');
+
+  
+  
+/*!]]>*/</script>
+
+                    <!-- detail start -->
+                                                                    <h1>about_tad.jpg</h1>
+
+                        <a href="/_media/about_tad.jpg?cache=" title="View original file"><img width="788" height="542" class="img_detail" alt="about_tad.jpg" title="about_tad.jpg" src="/_media/about_tad.jpg?cache=&amp;w=788&amp;h=542&amp;tok=0e202b"/></a>
+                        <div class="img_detail">
+                            <dl><dt>Date:</dt><dd>2023/04/22 20:59</dd><dt>Filename:</dt><dd>about_tad.jpg</dd><dt>Format:</dt><dd>JPEG</dd><dt>Size:</dt><dd>47KB</dd><dt>Width:</dt><dd>788</dd><dt>Height:</dt><dd>542</dd></dl>                            <dl>
+                            <dt>References for:</dt><dd><a href="/tad_concepts" class="wikilink1" title="tad_concepts" data-wiki-id="tad_concepts">Concepts inside TAD</a></dd>                            </dl>
+                            <p>This list might not be complete due to ACL restrictions and hidden pages.</p>
+                        </div>
+                                                            </div>
+                <!-- detail stop -->
+                <hr/>
+<i><small>Press F1 <b>inside</b> the application to read context-sensitive help directly in the application itself<a><br/> <b><a href="javascript:history.go(-1)" title="Go back">&#8592;</a></b> <a title='Edit this page (Needs login!)' href='?do=edit'>&#8712;</a></small></i>
+                
+                
+            </div></div><!-- /content -->
+
+            <hr class="a11y" />
+
+            <!-- PAGE ACTIONS -->
+                            <div id="dokuwiki__pagetools">
+                    <h3 class="a11y">Page Tools</h3>
+                    <div class="tools">
+                        <ul>
+                            <li><a href="/tad_concepts"  class="action img_backto" accesskey="b" rel="nofollow" title="Back to tad_concepts [B]"><span>Back to tad_concepts</span></a></li>                        </ul>
+                    </div>
+                </div>
+                    </div><!-- /wrapper -->
+
+        
+	<div class="content-area col-lg-12" style="text-align:center;margin:15px;">
+		<!-- ********** FOOTER ********** -->
+		<div id="dokuwiki__footer"><div class="pad">
+			<div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" class="urlextern" target="_blank">CC Attribution-Noncommercial-Share Alike 4.0 International</a></bdi></div>
+			<div class="buttons">
+				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" target="_blank"><img src="/lib/images/license/button/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International" /></a>				<a href="http://www.dokuwiki.org/donate" title="Donate" target="_blank"><img
+					src="/lib/tpl/flat/images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
+				<a href="http://php.net" title="Powered by PHP" target="_blank"><img
+					src="/lib/tpl/flat/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
+				<a href="http://validator.w3.org/check/referer" title="Valid HTML5" target="_blank"><img
+					src="/lib/tpl/flat/images/button-html5.png" width="80" height="15" alt="Valid HTML5" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img
+					src="/lib/tpl/flat/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+				<a href="http://dokuwiki.org/" title="Driven by DokuWiki" target="_blank"><img
+					src="/lib/tpl/flat/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+			</div>
+		</div>
+		</div>
+		<!-- /footer -->
+
+			<script>
+	var $accordion = jQuery('#accordion');
+	$accordion.accordion();
+	</script>
+	</div>
+</div>
+    </div></div><!-- /site -->
+</body>
+</html>

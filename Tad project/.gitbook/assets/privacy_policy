@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>Privacy Policy [TAD Docs]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="privacy_policy"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="TAD Docs"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/privacy_policy?do=index" title="Sitemap"/>
+<link rel="manifest" href="/lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/feed.php?mode=list&amp;ns="/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/_export/xhtml/privacy_policy"/>
+<link rel="canonical" href="https://docs.teamtad.com/privacy_policy"/>
+<link rel="stylesheet" href="/lib/exe/css.php?t=flat&amp;tseed=3dd1a12f5d7908d2ca0999d4c9e5c33e"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='';var JSINFO = {"plugin_folded":{"hide":"hide","reveal":"reveal"},"plugins":{"vshare":{"youtube":"youtube\\.com\/.*[&?]v=([a-z0-9_\\-]+)","vimeo":"vimeo\\.com\\\/(\\d+)","slideshare":"slideshare.*id=(\\d+)","dailymotion":"dailymotion\\.com\/video\/([a-z0-9]+)","archiveorg":"archive\\.org\/(?:embed|details)\/([a-zA-Z0-9_\\-]+)","soundcloud":"soundcloud\\.com\/([\\w-]+\/[\\w-]+)","niconico":"nicovideo\\.jp\/watch\/(sm[0-9]+)","bitchute":"bitchute\\.com\\\/video\\\/([a-zA-Z0-9_\\-]+)","coub":"coub\\.com\\\/view\\\/([a-zA-Z0-9_\\-]+)","odysee":"odysee\\.com\/\\$\/(?:embed|download)\/([-%_?=\/a-zA-Z0-9]+)","youku":"v\\.youku\\.com\/v_show\/id_([0-9A-Za-z=]+)\\.html","bilibili":"bilibili\\.com\\\/video\\\/(BV[0-9A-Za-z]+)","msoffice":"(?:office\\.com.*[&?]videoid=([a-z0-9\\-]+))","msstream":"microsoftstream\\.com\\\/video\\\/([a-f0-9\\-]{36})"}},"id":"privacy_policy","namespace":"","ACT":"show","useHeadingNavigation":1,"useHeadingContent":0};
+/*!]]>*/</script>
+<script src="/lib/exe/jquery.php?tseed=f0349b609f9b91a485af8fd8ecd4aea4" defer="defer">/*<![CDATA[*/
+/*!]]>*/</script>
+<script src="/lib/exe/js.php?t=flat&amp;tseed=3dd1a12f5d7908d2ca0999d4c9e5c33e" defer="defer">/*<![CDATA[*/
+/*!]]>*/</script>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="/lib/tpl/flat/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/flat/images/apple-touch-icon.png" />
+        
+	<style type="text/css">
+		img.wp-smiley,img.emoji{
+			display:inline !important;
+			border:none !important;
+			box-shadow:none !important;
+			height:1em !important;
+			width:1em !important;
+			margin:0.07em !important;
+			vertical-align:-0.1em !important;
+			background:none !important;
+			padding:0!important}
+			
+		@font-face {
+		  font-family: 'FontAwesome';
+		  src: url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.eot?v=4.3.0');
+		  src: url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+		}
+	</style>
+	
+	<link rel='stylesheet' id='flat-fonts-css' href='https://fonts.googleapis.com/css?family=Yesteryear%7CLato:400,700%7CBitter%7COpen+Sans+Condensed' media='all' />	
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+	<script src="/lib/tpl/flat/assets/js/flat.js" ></script>
+
+    
+</head>
+
+<body class="blog custom-background" itemscope itemtype="http://schema.org/WebPage">
+
+<div id="dokuwiki__site">
+	<div id="dokuwiki__top">
+		<div id="page">
+			<div class="container">
+			<div class="row row-offcanvas row-offcanvas-left">
+
+				
+				<div id="secondary" class="col-lg-3">
+					
+					<header id="masthead" class="site-header">
+						<div class="hgroup">
+							<h1 class="site-title display-title">
+									<span itemprop="name">
+										<a href="/start" >TAD Docs</a>									</span>
+							
+<script>
+var trlng='';
+//var url= "https://translate.google.com/translate?sl=en&tl="+trlng+"&u="+encodeURI(window.location.href);
+ var urlpath = window.location.pathname
+ var userLang = navigator.language || navigator.userLanguage;
+ var url = "https://docs-teamtad-com.translate.goog"+urlpath+"?_x_tr_sl=en&_x_tr_tl="+userLang+"&_x_tr_sch=http";
+document.write("<style>.tracl a {font-size:8pt; color:white;} </style><div class='tracl'><a href='"+url+"' >Translate</a></div>");
+</script>
+			
+							</h1>
+							<h2 itemprop="description" class="site-description">
+														</h2>
+						</div>
+						<button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas" aria-label="Sidebar">
+							<i class="fa fa-bars"></i>
+						</button>
+						<button type="button" class="btn btn-link hidden-lg toggle-navigation" aria-label="Navigation Menu">
+							<i class="fa fa-gear"></i>
+						</button>
+						<nav id="site-navigation" class="navigation main-navigation">
+							<ul id="menu-menu" class="nav-menu">
+								<!-- ********** ASIDE ********** -->
+																		
+<p>
+<a href="/start" class="wikilink1" title="start" data-wiki-id="start">Welcome</a>
+</p>
+
+<h2 class="sectionedit1" id="tad_designer">TAD Designer</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="/about_tad_designer" class="wikilink1" title="about_tad_designer" data-wiki-id="about_tad_designer">About TAD Designer</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/money_matters" class="wikilink1" title="money_matters" data-wiki-id="money_matters">An Appeal</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/whysignup" class="wikilink1" title="whysignup" data-wiki-id="whysignup">Why sign up?</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/faq" class="wikilink1" title="faq" data-wiki-id="faq">FAQ</a></div>
+</li>
+</ul>
+
+<p>
+<em>Initial steps</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/to_download_and_install_tad" class="wikilink1" title="to_download_and_install_tad" data-wiki-id="to_download_and_install_tad">Requirements</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/registration" class="wikilink1" title="registration" data-wiki-id="registration">Registration</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/update" class="wikilink1" title="update" data-wiki-id="update">Install or update</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/how_to_get_support" class="wikilink1" title="how_to_get_support" data-wiki-id="how_to_get_support">How to get support</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/bugs_and_suggestions" class="wikilink1" title="bugs_and_suggestions" data-wiki-id="bugs_and_suggestions">Bugs and Suggestions</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/tadchat" class="wikilink1" title="tadchat" data-wiki-id="tadchat">How to use chat</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/video_tutorials" class="wikilink1" title="video_tutorials" data-wiki-id="video_tutorials">Videos and Podcasts</a></div>
+</li>
+</ul>
+
+<p>
+<em>First steps into TAD</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/tad_concepts" class="wikilink1" title="tad_concepts" data-wiki-id="tad_concepts">TAD Concepts</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/concept_of_classes_and_objects" class="wikilink1" title="concept_of_classes_and_objects" data-wiki-id="concept_of_classes_and_objects">Concept of Classes and Objects</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/understanding_the_user_interface" class="wikilink1" title="understanding_the_user_interface" data-wiki-id="understanding_the_user_interface">Understanding the User Interface</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/settings" class="wikilink1" title="settings" data-wiki-id="settings">Settings</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/advanced" class="wikilink1" title="advanced" data-wiki-id="advanced">Special Capabilities</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;TAD Designer&quot;,&quot;hid&quot;:&quot;tad_designer&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;20-589&quot;} -->
+<h3 class="sectionedit2" id="working_with_classes">Working with Classes</h3>
+<div class="level3">
+
+<p>
+<a href="/creating_classes" class="wikilink1" title="creating_classes" data-wiki-id="creating_classes">Creating classes</a>
+</p>
+
+<p>
+<a href="/managing_classes" class="wikilink1" title="managing_classes" data-wiki-id="managing_classes">Managing classes</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Working with Classes&quot;,&quot;hid&quot;:&quot;working_with_classes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;590-666&quot;} -->
+<h3 class="sectionedit3" id="working_with_objects">Working with Objects</h3>
+<div class="level3">
+
+<p>
+<a href="/create_a_new_object" class="wikilink1" title="create_a_new_object" data-wiki-id="create_a_new_object">Create a new object</a>
+</p>
+
+<p>
+<a href="/hiding_objects" class="wikilink1" title="hiding_objects" data-wiki-id="hiding_objects">Hiding objects</a>
+</p>
+
+<p>
+<a href="/editing_objects" class="wikilink1" title="editing_objects" data-wiki-id="editing_objects">Editing objects</a>
+</p>
+
+<p>
+<a href="/merging_objects" class="wikilink1" title="merging_objects" data-wiki-id="merging_objects">Merging objects</a>
+</p>
+
+<p>
+<a href="/breaking_an_object" class="wikilink1" title="breaking_an_object" data-wiki-id="breaking_an_object">Breaking an object</a>
+</p>
+
+<p>
+<a href="/deleting_objects" class="wikilink1" title="deleting_objects" data-wiki-id="deleting_objects">Deleting Objects</a>
+</p>
+
+<p>
+<a href="/selecting_objects" class="wikilink1" title="selecting_objects" data-wiki-id="selecting_objects">Selecting objects</a>
+</p>
+
+<p>
+<a href="/snapping_objects" class="wikilink1" title="snapping_objects" data-wiki-id="snapping_objects">Snapping objects</a>
+</p>
+
+<p>
+<a href="/measuring_dimensions" class="wikilink1" title="measuring_dimensions" data-wiki-id="measuring_dimensions">Measuring dimensions</a>
+</p>
+
+<p>
+<a href="/viewing_objects_in_3d" class="wikilink1" title="viewing_objects_in_3d" data-wiki-id="viewing_objects_in_3d">Viewing objects in 3D</a>
+</p>
+
+<p>
+<a href="/copying_objects" class="wikilink1" title="copying_objects" data-wiki-id="copying_objects">Copying objects</a>
+</p>
+
+<p>
+<a href="/pasting_objects" class="wikilink1" title="pasting_objects" data-wiki-id="pasting_objects">Pasting objects</a>
+</p>
+
+<p>
+<a href="/moving_objects" class="wikilink1" title="moving_objects" data-wiki-id="moving_objects">Moving objects</a>
+</p>
+
+<p>
+<a href="/rotating_objects" class="wikilink1" title="rotating_objects" data-wiki-id="rotating_objects">Rotating objects</a>
+</p>
+
+<p>
+<a href="/pinning_objects" class="wikilink1" title="pinning_objects" data-wiki-id="pinning_objects">Pinning objects</a>
+</p>
+
+<p>
+<a href="/undo_objects" class="wikilink1" title="undo_objects" data-wiki-id="undo_objects">Undo objects</a>
+</p>
+
+<p>
+<a href="/moving_the_architect" class="wikilink1" title="moving_the_architect" data-wiki-id="moving_the_architect">Moving the architect</a>
+</p>
+
+<p>
+<a href="/exporting_objects_to_2d" class="wikilink1" title="exporting_objects_to_2d" data-wiki-id="exporting_objects_to_2d">Exporting objects to 2D</a>
+</p>
+
+<p>
+<a href="/exporting_objects_to_3d" class="wikilink1" title="exporting_objects_to_3d" data-wiki-id="exporting_objects_to_3d">Exporting objects to 3D</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Working with Objects&quot;,&quot;hid&quot;:&quot;working_with_objects&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;667-1140&quot;} -->
+<h3 class="sectionedit4" id="object_editing_commands">Object Editing Commands</h3>
+<div class="level3">
+
+<p>
+<a href="/shifting_a_corner" class="wikilink1" title="shifting_a_corner" data-wiki-id="shifting_a_corner">Shifting a corner</a>
+</p>
+
+<p>
+<a href="/adding_a_corner" class="wikilink1" title="adding_a_corner" data-wiki-id="adding_a_corner">Adding a corner</a>
+</p>
+
+<p>
+<a href="/stretching_an_edge" class="wikilink1" title="stretching_an_edge" data-wiki-id="stretching_an_edge">Stretching an edge</a>
+</p>
+
+<p>
+<a href="/extruding_an_edge" class="wikilink1" title="extruding_an_edge" data-wiki-id="extruding_an_edge">Extruding an edge</a>
+</p>
+
+<p>
+<a href="/deleting_a_corner" class="wikilink1" title="deleting_a_corner" data-wiki-id="deleting_a_corner">Deleting a corner</a>
+</p>
+
+<p>
+<a href="/moving_a_set_of_objects" class="wikilink1" title="moving_a_set_of_objects" data-wiki-id="moving_a_set_of_objects">Moving a set of objects</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Object Editing Commands&quot;,&quot;hid&quot;:&quot;object_editing_commands&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;1141-1319&quot;} -->
+<h3 class="sectionedit5" id="display_options">Display Options</h3>
+<div class="level3">
+
+<p>
+<a href="/zooming_objects" class="wikilink1" title="zooming_objects" data-wiki-id="zooming_objects">Zooming objects</a>
+</p>
+
+<p>
+<a href="/panning_objects" class="wikilink1" title="panning_objects" data-wiki-id="panning_objects">Panning objects</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Display Options&quot;,&quot;hid&quot;:&quot;display_options&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;1320-1390&quot;} -->
+<h3 class="sectionedit6" id="keyboard_shortcuts">Keyboard Shortcuts</h3>
+<div class="level3">
+
+<p>
+<a href="/keyboard_shortcuts" class="wikilink1" title="keyboard_shortcuts" data-wiki-id="keyboard_shortcuts">Keyboard Shortcuts</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Keyboard Shortcuts&quot;,&quot;hid&quot;:&quot;keyboard_shortcuts&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;1391-1445&quot;} -->
+<h3 class="sectionedit7" id="appendix">Appendix</h3>
+<div class="level3">
+
+<p>
+<a href="/acknowledgement" class="wikilink1" title="acknowledgement" data-wiki-id="acknowledgement">Acknowledgements</a>
+</p>
+
+<p>
+<a href="/sfa_taxonomy" class="wikilink1" title="sfa_taxonomy" data-wiki-id="sfa_taxonomy">SFA Taxonomy</a>
+</p>
+
+<p>
+<a href="/well-formed_objects" class="wikilink1" title="well-formed_objects" data-wiki-id="well-formed_objects">Well-formed Objects</a>
+</p>
+
+<p>
+<a href="/tadtutorial1" class="wikilink1" title="tadtutorial1" data-wiki-id="tadtutorial1">Tutorials using AutoIT</a>
+</p>
+
+<p>
+<a href="/tos" class="wikilink1" title="tos" data-wiki-id="tos">Legal Terms and Conditions</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Appendix&quot;,&quot;hid&quot;:&quot;appendix&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;1446-1621&quot;} -->
+<h2 class="sectionedit8" id="tad_probes">TAD Probes</h2>
+<div class="level2">
+
+<p>
+<a href="/about_tad_probes" class="wikilink2" title="about_tad_probes" rel="nofollow" data-wiki-id="about_tad_probes">About TAD Probes</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;TAD Probes&quot;,&quot;hid&quot;:&quot;tad_probes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;1622-&quot;} -->								<!-- /aside -->
+								
+							</ul>
+						</nav>
+					</header>	
+					
+					<div class="sidebar-offcanvas">
+						<div id="main-sidebar" class="widget-area" role="complementary">
+							<aside id="search-2" class="widget widget_search">
+								<form action="/start" method="get" role="search" class="search doku_form" id="dw__search" accept-charset="utf-8"><input type="hidden" name="do" value="search" /><input type="hidden" name="id" value="privacy_policy" /><div class="no"><input name="q" type="text" class="edit" title="[F]" accesskey="f" placeholder="Search" autocomplete="on" id="qsearch__in" value="" /><button value="1" type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>							</aside>
+							
+							<aside id="recent-posts-2" class="widget widget_recent_entries">
+								<h3 class='widget-title'>Recent / Updated Posts</h3>
+									<div class="pad2 aside include group">
+										<div class="content"><div class="group">
+																																	
+																						
+										</div></div>
+									</div>									
+							</aside>
+							
+							<aside id="categories-1" class="widget widget_categories">
+								<h3 class='widget-title'>About me...</h3>
+									<div class="pad2 aside include group">
+										<div class="content"><div class="group">
+																																</div></div>
+									</div>
+							</aside>
+							
+							<aside id="categories-2" class="widget widget_categories">
+								<h3 class='widget-title'>Administation</h3>
+								
+								<!-- USER TOOLS -->
+																	<div id="dokuwiki__usertools2">
+										<h3 class="a11y">User Tools</h3>
+										<ul>
+											<li><a href="/privacy_policy?do=admin"  class="action admin" rel="nofollow" title="Admin">Admin</a></li><li><a href="/privacy_policy?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In">Log In</a></li>										</ul>
+									</div>
+																
+							</aside>
+														
+						</div>
+					</div>
+					
+				</div>
+
+				<div id="primary" class="content-area col-lg-9" itemprop="mainContentOfPage">
+															
+					<div id="content" class="site-content" role="main">							
+						<!-- wrapper -->
+						<div class="wrapper group">
+							
+							
+<!-- ********** CONTENT ********** -->
+<div id="dokuwiki__content"><div class="pad group">
+	
+	
+	<div class="page group">
+				<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'teamtad/documentation'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+<!--script src="//load.sumome.com/" data-sumo-site-id="cfb9d81ee022a44869bcd33db5d16c96314de0af7797b0ee16fac40d1a39413d" async="async"></script-->
+<script type="text/javascript">/*<![CDATA[*/
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92417543-1', 'auto');
+  ga('send', 'pageview');
+
+  
+  
+/*!]]>*/</script>
+
+		<!-- wikipage start -->
+		
+<h1 class="sectionedit1" id="privacy_policy">Privacy Policy</h1>
+<div class="level1">
+
+<p>
+This Privacy Policy (Privacy Policy) applies to the information that we obtain from your use of the Services and the Software through a device (including without limitation a desktop, laptop, mobile phone, tablet, or other consumer electronic device or when you otherwise interact with any of the websites setup for TAD (“TADWEBSITES”) 
+References to “you”, “User” shall mean the end user accessing and using the Software and the  Service. “we”, “us” and “our” shall mean the copyright holder of TAD
+</p>
+
+<p>
+The capitalized terms used herein and not defined shall have the same meaning as ascribed to them under the End User License Agreement and Terms of Services (“Agreement”) posted on our website. 
+</p>
+
+<p>
+This Privacy Policy describes the procedures for collecting, using, and disclosing your information. 
+Maintaining the privacy of your information is of paramount importance to us as it helps foster confidence, goodwill and stronger relationships with you. Please read this Privacy Policy to learn more about the ways in which we use and protect your personal information. This Privacy Policy governs your access to the Software and the Services, regardless of how you access it, and by using the Software and the Services you consent to the collection, transfer, processing, storage, disclosure and other uses described in this Privacy Policy.
+</p>
+
+<p>
+By accepting this Privacy Policy, merely using our website or using the Software and the Services, you expressly consent to our use and disclosure of your personal information in accordance with this Privacy Policy. 
+</p>
+
+<p>
+This Privacy Policy is subject to change at any time without notice. To make sure you are aware of any changes, please review the policy periodically. 
+</p>
+
+<p>
+<strong>Note for Minor Users</strong>
+</p>
+
+<p>
+Persons under the age of 18 (eighteen) may use the Software and the Services and submit relevant information as requested online only in conjunction with and under the supervision of their parents or guardians.
+The information we collect and store
+</p>
+
+<p>
+<strong>1. The information we collect and store:</strong>
+</p>
+
+<p>
+We may collect and store the following information in relation to the Software and the Services:
+</p>
+
+<p>
+<strong>Account and Profile Information</strong>
+</p>
+
+<p>
+We collect information about you and your company as you register for an account, create or modify your profile, use, access, or interact with the Software and the Services (including but not limited to when you upload, download, collaborate on or share Content). Information we collect includes but is not limited to your name, username, address, email address, phone number. You may provide this information directly when you install the Software or access the Services, or in some cases another user (such as a system administrator) creating an account on your behalf may provide it. If you are providing personal information about a third party, you confirm that you have the authority to act for them and to consent to the collection and use of their personal information as described in this Privacy Policy.
+</p>
+
+<p>
+We may collect and store the contents that you create, input, submit, post, upload, transmit, store or display in the process of using the Services or accessing our website. Such Content includes any personal information or other sensitive information that 
+you choose to include. 
+</p>
+
+<p>
+Please read this topic on telemetry for details: <a href="http://docs.teamtad.com/telemetry" class="urlextern" target="_blank" title="http://docs.teamtad.com/telemetry" rel="ugc nofollow noopener">http://docs.teamtad.com/telemetry</a>
+</p>
+
+<p>
+<strong>Submissions</strong>
+</p>
+
+<p>
+We collect other data that you submit to our website or as you participate in any interactive features of the Services, participate in a survey, contest, promotion, sweepstakes, activity or event, apply for a job, request customer support, communicate with us via third party social media sites or otherwise communicate with us, which may or may not be available to third parties. You understand and acknowledge that we shall not be responsible for other parties&#039; use of the data which you make available to them through this Website. We encourage you to be careful about what data you disclose in this way.
+</p>
+
+<p>
+<strong>Log Data</strong>
+</p>
+
+<p>
+When you use the Services, we automatically record information from your device, its software, and your activity using the Software or the Services. This may include the device&#039;s Internet Protocol (“IP”) address, browser type, the web page visited before you came to our website, information you search for on our website, local preferences, identification numbers associated with your devices, your mobile carrier, date and time stamps associated with transactions, system configuration information, physical system information, metadata concerning your Files, and other interactions with the Services. 
+</p>
+
+<p>
+<strong>Special Offers and Updates</strong>
+</p>
+
+<p>
+Upon creation of your user account, we may send you an email to confirm your user id and password. We may periodically send you special deals, latest updates and other promotional material in relation to the Software and Services. We respect the privacy of our user and therefore you would have an option to opt out or unsubscribe from these communications.. However, you cannot unsubscribe from the messages and emails which are delivered per the applicable law and the important for use of Software and the Services, e.g. temporary suspension of Services due to maintenance. 
+</p>
+
+<p>
+The information mentioned above shall collectively referred to as “Personal Information”
+</p>
+
+<p>
+<strong>2. How We Use Personal Information</strong>
+</p>
+
+<p>
+We use the Personal information for variety of purposes including:
+</p>
+<ul>
+<li class="level1"><div class="li"> to provide, operate, maintain and improve our Software or the Services;</div>
+</li>
+<li class="level1"><div class="li"> enable you to access and use the Software and the Services, including uploading, posting, downloading the contents you provide. </div>
+</li>
+<li class="level1"><div class="li"> to monitor, analyse and administer your use of the Software and the Services;</div>
+</li>
+<li class="level1"><div class="li"> to better understand your requirements and interests and update our records and manage our relationship with you;</div>
+</li>
+<li class="level1"><div class="li"> Investigate and prevent fraudulent transactions, unauthorized access to the Software and the Services, and other illegal activities;</div>
+</li>
+<li class="level1"><div class="li"> to personalize and improve your experience with the Software and the Services;</div>
+</li>
+<li class="level1"><div class="li"> to provide or offer Software updates or Services related announcements;</div>
+</li>
+<li class="level1"><div class="li"> use Personal Information to contact you and deliver information to you that, in some cases, are targeted to your interests, such as targeted advertisements, administrative notices, service offerings, and communications relevant to your use of the Software and the Services.</div>
+</li>
+<li class="level1"><div class="li"> for other purposes which we may notify you. </div>
+</li>
+</ul>
+
+<p>
+We use your internet protocol (IP) address to help diagnose problems with our server, and to administer our website. We do not link your IP address which accesses our website to any personal information. We use tracking information to determine which areas our website users’ visit based on traffic to those areas. We do not track what individual users read, but rather how often each page is visited. This helps us maintain a superior and informative website for you. 
+</p>
+
+<p>
+<strong>3. How we may disclose and share Personal Information</strong>
+</p>
+
+<p>
+The Personal Information collected by us is controlled by Information Technology Act, 2000 (India). We will not share or disclose the Personal Information with third parties except as described in this Privacy Policy. We do not sell the Personal Information. 
+</p>
+
+<p>
+You use: When you use or access the Services, the contents you provide will be displayed back to you.  Certain features of the Services allow you to make some of your contents public, in which case it will become readily accessible to anyone. We urge you to consider the sensitivity of any data you make public. 
+</p>
+
+<p>
+<strong>Service Providers, Business Partners and Others</strong>
+</p>
+
+<p>
+We may use certain trusted third party companies and individuals to help us provide, analyse, and improve the Software or the Services (including but not limited to data storage, maintenance services, database management, web analytics and improvement of the Software and Service&#039;s features). These third parties may have access to the Personal Information only for purposes of performing  the services mentioned herein on our behalf and under obligations similar to those in this Privacy Policy.&#039;
+</p>
+
+<p>
+<strong>Third-Party Application</strong>
+</p>
+
+<p>
+In the event you chose to access the Services through a third party application, we may share your information with such third party application provided. We will not be responsible for the acts and omissions of those third parties  therefore make sure that you trust the application and that it has a Privacy Policy acceptable to you. 
+</p>
+
+<p>
+<strong>Affiliates</strong>
+</p>
+
+<p>
+We may provide the Personal Information to our affiliates.
+</p>
+
+<p>
+<strong>Joint Marketing Arrangements</strong>
+</p>
+
+<p>
+Where permitted by law, we may provide the Personal Information to joint marketers with whom we have a marketing arrangement. We require all joint marketers to safeguard the Personal Information, and prohibit them from making unauthorized or unlawful use of the Personal Information.
+</p>
+
+<p>
+Compliance with Laws and Law Enforcement Requests: We may disclose the Personal information to outside parties, when we have a good faith belief that disclosure is reasonably necessary to:
+</p>
+<ul>
+<li class="level1"><div class="li"> comply with a law, regulation or compulsory legal request or an order of Court; </div>
+</li>
+<li class="level1"><div class="li"> protect the safety of any person from death or serious bodily injury; </div>
+</li>
+<li class="level1"><div class="li"> prevent fraud or abuse of Software and the Services; or</div>
+</li>
+<li class="level1"><div class="li"> to protect our property rights. </div>
+</li>
+</ul>
+
+<p>
+<strong>Business Transfers</strong>
+</p>
+
+<p>
+We may share or transfer the Personal Information in connection with, or during negotiations of, any merger, sale of assets, financing, or acquisition of all or a portion of our business to another company. We will notify you (for example, via email and/or a prominent notice on our website) of any change in control or use of the Personal Information, if it becomes subject to a different privacy policy. We will also notify you of choices you may have regarding the Personal Information.
+</p>
+
+<p>
+<strong>Social Media Platforms</strong>
+</p>
+
+<p>
+You may wish to participate in social media platform hosted and made available by us. The main aim of the social media platform is to facilitate and allow you to access the Services. However, we cannot be held responsible if you share Personal Information on social media platform that is subsequently used, misused or otherwise appropriate by another user.
+</p>
+
+<p>
+<strong>Non-private or Non-Personal Information</strong>
+</p>
+
+<p>
+You shall be required to separately register in order to participate in forums, chat rooms, blogs etc. which are provided by us. In the event of such registration, you shall be able to chat with various other vendors and contractors for a stipulated period of time.
+</p>
+
+<p>
+Any data, information material you transmit or post or submit on the website or your user account without any confidentiality setting such as non-private, shall be considered and treated as non-confidential and non-proprietary, subject to the data security provisions and you grant us a royalty-free, perpetual, irrevocable, non-exclusive right to use, copy, modify, adapt, translate, publish, disclose and distribute any such material.
+</p>
+
+<p>
+<strong>4. Changing or Deleting Your Information</strong>
+</p>
+
+<p>
+If you are a registered user, you may review, update, correct or delete the Personal Information provided in your user account. If the Personal Information changes, or if you no longer desire to avail the Services, you may update or delete it by making the change to your account. In some cases we may retain copies of the Personal Information if required by law.
+</p>
+
+<p>
+<strong>5. Data Retention</strong>
+</p>
+
+<p>
+We will retain the Personal Information for as long as your user account is active or as needed to provide you the Services. We may retain and use the Personal Information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements. Consistent with these requirements, we will try to delete the Personal information quickly upon reasonable request. Please note, however, that there might be latency in deleting the Personal Information from our servers and backed-up versions might exist after deletion. In addition, we do not delete from our servers files that you have in common with other users.  
+</p>
+
+<p>
+You understand and acknowledge that the format of storing the Personal Information may change at our sole discretion, where the versions may be updated by us.  
+</p>
+
+<p>
+<strong>6. Security</strong>
+</p>
+
+<p>
+We adhere to the best practices for data protection, no method of electronic transmission or storage is 100% secure, therefore, we cannot guarantee its absolute security. 
+</p>
+
+<p>
+As a matter of security we take back-up of systems periodically. Although we provide appropriate firewalls and protections. Our systems are not hack proof. Data pilferage due to unauthorized 
+hacking, virus attacks, technical issues is possible and we take no liabilities or responsibilities for it.
+</p>
+
+<p>
+You are responsible for all actions take with your user account and password. Therefore, we do not recommend that you disclose your password to any third parties. If you choose to share your user account and password or the Personal Information with third parties, you shall be solely responsible for all such actions. If you lose control of your password, you may lose substantial control over the Personal Information and may be subject to legally binding actions taken on your behalf. 
+</p>
+
+<p>
+<strong>7. Audit</strong>
+</p>
+
+<p>
+We understand and acknowledge that the data produced by you is private and confidential. We may have in place an auditor who will investigate and certify that process we use to ensure that your data is kept in a secure place and there is no chance of tampering from our end. In case you have any grievances or issues, you may contact the auditor who may be appointed. We shall not be liable in any manner for any data intentionally shared by you with third parties. 
+</p>
+
+<p>
+<strong>8. Cookies</strong>
+</p>
+
+<p>
+We would be using the technology called <em>cookies</em> on your browser in order to give a facile user experience. These cookies would be used as per current standards on acceptable use of Cookies. Cookies are small files that are transferred to your computer’s hard drive through your web browser that enables the sites to recognize your browser and capture and remember certain information. We use cookies to understand and save your preferences for future visits.
+</p>
+
+<p>
+<strong>9. Limitation of Liability</strong>
+</p>
+
+<p>
+The copyright holder of TAD will not be liable for any damages, direct or indirect, incidental or consequential, and all liabilities (including for negligence, loss or damage such as loss of revenue, unavailability of system or loss of data and loss of the Personal Information) and for use of or inability to use material, Software or Services of any kind that is offered or to provide indemnity or any other remedy to User or any third party.
+</p>
+
+<p>
+<strong>10. Force Majeure</strong>
+</p>
+
+<p>
+Neither party will be in default or liable for any delay or failure to comply with this Privacy Policy (other than any payment of money) due to any act beyond the reasonable control of the affected party, including, without limitation to failures of Internet, computer equipment, telecommunication, power, provided such party immediately notifies the other. 
+</p>
+
+<p>
+<strong>11. Third Party Sites</strong>
+</p>
+
+<p>
+We may provide links of other websites on our website, without any accuracy, completeness, or usefulness of any content, warranty, merchantability, endorsement, and suitability, any assurance of quality, authenticity, and appropriateness to view such websites and responsibility, liability, obligations on part of the website. This Privacy Policy does not apply when you access such sites, links. We shall not be liable to any infomercials that are advertised on our Website by third party advertisers. These advertises shall be governed by their respective policies and terms of service, which you are requested to be aware of.
+</p>
+
+<p>
+Any opinions, advice, statements, services, offers, or other information or content expressed or made available by third parties, including information providers, are those of the respective author(s) or distributors and not of the copyright holder of TAD.  
+</p>
+
+<p>
+Your decision to act on such third party content shall be solely at your own risk.
+</p>
+
+<p>
+<strong>12. Termination</strong>
+</p>
+
+<p>
+This Privacy Policy along with the Agreement of our Terms of Service contains the entire understanding and agreement between you and us, the copyright holder of TAD. It supersedes any and all prior understandings relating to the Software and the Services. This Privacy Policy cannot be changed or terminated orally. If any provision of this Privacy Policy is held to be illegal, invalid or unenforceable, this will not affect any other provisions and the Privacy Policy will be deemed amended to the extent necessary. Any provision which must survive in order to allow us to enforce its meaning shall survive the termination of this Privacy Policy. This Privacy Policy should be at all times read along with the Agreement. 
+</p>
+
+<p>
+If you have any questions about this Privacy Policy, or you wish to access or correct the personal information we hold about you, please contact us at admin@teamtad.com
+</p>
+
+</div>
+
+		<!-- wikipage stop -->
+		<hr/>
+<i><small>Press F1 <b>inside</b> the application to read context-sensitive help directly in the application itself<a><br/> <b><a href="javascript:history.go(-1)" title="Go back">&#8592;</a></b> <a title='Edit this page (Needs login!)' href='?do=edit'>&#8712;</a></small></i>
+	</div>
+
+	<div class="docInfo">
+		Last modified: le 2023/04/22 20:59	</div>
+
+	</div></div>
+<!-- /content -->
+
+<hr class="a11y" />
+<!-- PAGE ACTIONS -->
+<div id="dokuwiki__pagetools">
+	<h3 class="a11y">Page Tools</h3>
+	<div class="tools">
+		<ul>
+			<li><a href="/privacy_policy?do=backlink"  class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="javascript:void(0);" class="fold_unfold_all" onclick="fold_unfold_all();" rel="nofollow" title="Fold/unfold all"><span>Fold/unfold all</span></a></li><li><a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>		</ul>
+	</div>
+</div>
+
+						</div>
+						<!-- /wrapper -->					
+					</div>
+
+					<footer class="site-info" itemscope itemtype="http://schema.org/WPFooter">
+						<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Inspired by WordPress</a>. Theme: Flat 1.7.6 by
+						<a rel="nofollow" href="https://themeisle.com/themes/flat/" title="Flat WordPress Theme">Themeisle</a> adapted for 
+						<a href="https://www.dokuwiki.org/">Dokuwiki</a> by <a href="https://beemoon.fr">www.beemoon.com</a>
+					</footer>
+					
+				</div>
+					
+			</div>
+		</div>
+		
+		
+	<div class="content-area col-lg-12" style="text-align:center;margin:15px;">
+		<!-- ********** FOOTER ********** -->
+		<div id="dokuwiki__footer"><div class="pad">
+			<div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" class="urlextern" target="_blank">CC Attribution-Noncommercial-Share Alike 4.0 International</a></bdi></div>
+			<div class="buttons">
+				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" target="_blank"><img src="/lib/images/license/button/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International" /></a>				<a href="http://www.dokuwiki.org/donate" title="Donate" target="_blank"><img
+					src="/lib/tpl/flat/images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
+				<a href="http://php.net" title="Powered by PHP" target="_blank"><img
+					src="/lib/tpl/flat/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
+				<a href="http://validator.w3.org/check/referer" title="Valid HTML5" target="_blank"><img
+					src="/lib/tpl/flat/images/button-html5.png" width="80" height="15" alt="Valid HTML5" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img
+					src="/lib/tpl/flat/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+				<a href="http://dokuwiki.org/" title="Driven by DokuWiki" target="_blank"><img
+					src="/lib/tpl/flat/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+			</div>
+		</div>
+		</div>
+		<!-- /footer -->
+
+			<script>
+	var $accordion = jQuery('#accordion');
+	$accordion.accordion();
+	</script>
+	</div>
+</div>
+			
+	</div>
+</div>
+						
+	
+<div class="no"><img src="/lib/exe/taskrunner.php?id=privacy_policy&amp;1690380172" width="2" height="1" alt="" /></div>
+<div id="screen__mode" class="no"></div>
+    
+</body>
+</html>

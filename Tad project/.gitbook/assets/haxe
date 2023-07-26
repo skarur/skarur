@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <title>Compiling TAD to code [TAD Docs]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="haxe"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="TAD Docs"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/haxe?do=index" title="Sitemap"/>
+<link rel="manifest" href="/lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="/feed.php?mode=list&amp;ns="/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/_export/xhtml/haxe"/>
+<link rel="canonical" href="https://docs.teamtad.com/haxe"/>
+<link rel="stylesheet" href="/lib/exe/css.php?t=flat&amp;tseed=3dd1a12f5d7908d2ca0999d4c9e5c33e"/>
+<!--[if gte IE 9]><!-->
+<script >/*<![CDATA[*/var NS='';var JSINFO = {"plugin_folded":{"hide":"hide","reveal":"reveal"},"plugins":{"vshare":{"youtube":"youtube\\.com\/.*[&?]v=([a-z0-9_\\-]+)","vimeo":"vimeo\\.com\\\/(\\d+)","slideshare":"slideshare.*id=(\\d+)","dailymotion":"dailymotion\\.com\/video\/([a-z0-9]+)","archiveorg":"archive\\.org\/(?:embed|details)\/([a-zA-Z0-9_\\-]+)","soundcloud":"soundcloud\\.com\/([\\w-]+\/[\\w-]+)","niconico":"nicovideo\\.jp\/watch\/(sm[0-9]+)","bitchute":"bitchute\\.com\\\/video\\\/([a-zA-Z0-9_\\-]+)","coub":"coub\\.com\\\/view\\\/([a-zA-Z0-9_\\-]+)","odysee":"odysee\\.com\/\\$\/(?:embed|download)\/([-%_?=\/a-zA-Z0-9]+)","youku":"v\\.youku\\.com\/v_show\/id_([0-9A-Za-z=]+)\\.html","bilibili":"bilibili\\.com\\\/video\\\/(BV[0-9A-Za-z]+)","msoffice":"(?:office\\.com.*[&?]videoid=([a-z0-9\\-]+))","msstream":"microsoftstream\\.com\\\/video\\\/([a-f0-9\\-]{36})"}},"id":"haxe","namespace":"","ACT":"show","useHeadingNavigation":1,"useHeadingContent":0};
+/*!]]>*/</script>
+<script src="/lib/exe/jquery.php?tseed=f0349b609f9b91a485af8fd8ecd4aea4" defer="defer">/*<![CDATA[*/
+/*!]]>*/</script>
+<script src="/lib/exe/js.php?t=flat&amp;tseed=3dd1a12f5d7908d2ca0999d4c9e5c33e" defer="defer">/*<![CDATA[*/
+/*!]]>*/</script>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="shortcut icon" href="/lib/tpl/flat/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/flat/images/apple-touch-icon.png" />
+        
+	<style type="text/css">
+		img.wp-smiley,img.emoji{
+			display:inline !important;
+			border:none !important;
+			box-shadow:none !important;
+			height:1em !important;
+			width:1em !important;
+			margin:0.07em !important;
+			vertical-align:-0.1em !important;
+			background:none !important;
+			padding:0!important}
+			
+		@font-face {
+		  font-family: 'FontAwesome';
+		  src: url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.eot?v=4.3.0');
+		  src: url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('/lib/tpl/flat/assets/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+		}
+	</style>
+	
+	<link rel='stylesheet' id='flat-fonts-css' href='https://fonts.googleapis.com/css?family=Yesteryear%7CLato:400,700%7CBitter%7COpen+Sans+Condensed' media='all' />	
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+	<script src="/lib/tpl/flat/assets/js/flat.js" ></script>
+
+    
+</head>
+
+<body class="blog custom-background" itemscope itemtype="http://schema.org/WebPage">
+
+<div id="dokuwiki__site">
+	<div id="dokuwiki__top">
+		<div id="page">
+			<div class="container">
+			<div class="row row-offcanvas row-offcanvas-left">
+
+				
+				<div id="secondary" class="col-lg-3">
+					
+					<header id="masthead" class="site-header">
+						<div class="hgroup">
+							<h1 class="site-title display-title">
+									<span itemprop="name">
+										<a href="/start" >TAD Docs</a>									</span>
+							
+<script>
+var trlng='';
+//var url= "https://translate.google.com/translate?sl=en&tl="+trlng+"&u="+encodeURI(window.location.href);
+ var urlpath = window.location.pathname
+ var userLang = navigator.language || navigator.userLanguage;
+ var url = "https://docs-teamtad-com.translate.goog"+urlpath+"?_x_tr_sl=en&_x_tr_tl="+userLang+"&_x_tr_sch=http";
+document.write("<style>.tracl a {font-size:8pt; color:white;} </style><div class='tracl'><a href='"+url+"' >Translate</a></div>");
+</script>
+			
+							</h1>
+							<h2 itemprop="description" class="site-description">
+														</h2>
+						</div>
+						<button type="button" class="btn btn-link hidden-lg toggle-sidebar" data-toggle="offcanvas" aria-label="Sidebar">
+							<i class="fa fa-bars"></i>
+						</button>
+						<button type="button" class="btn btn-link hidden-lg toggle-navigation" aria-label="Navigation Menu">
+							<i class="fa fa-gear"></i>
+						</button>
+						<nav id="site-navigation" class="navigation main-navigation">
+							<ul id="menu-menu" class="nav-menu">
+								<!-- ********** ASIDE ********** -->
+																		
+<p>
+<a href="/start" class="wikilink1" title="start" data-wiki-id="start">Welcome</a>
+</p>
+
+<h2 class="sectionedit1" id="tad_designer">TAD Designer</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> <a href="/about_tad_designer" class="wikilink1" title="about_tad_designer" data-wiki-id="about_tad_designer">About TAD Designer</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/money_matters" class="wikilink1" title="money_matters" data-wiki-id="money_matters">An Appeal</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/whysignup" class="wikilink1" title="whysignup" data-wiki-id="whysignup">Why sign up?</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/faq" class="wikilink1" title="faq" data-wiki-id="faq">FAQ</a></div>
+</li>
+</ul>
+
+<p>
+<em>Initial steps</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/to_download_and_install_tad" class="wikilink1" title="to_download_and_install_tad" data-wiki-id="to_download_and_install_tad">Requirements</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/registration" class="wikilink1" title="registration" data-wiki-id="registration">Registration</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/update" class="wikilink1" title="update" data-wiki-id="update">Install or update</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/how_to_get_support" class="wikilink1" title="how_to_get_support" data-wiki-id="how_to_get_support">How to get support</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/bugs_and_suggestions" class="wikilink1" title="bugs_and_suggestions" data-wiki-id="bugs_and_suggestions">Bugs and Suggestions</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/tadchat" class="wikilink1" title="tadchat" data-wiki-id="tadchat">How to use chat</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/video_tutorials" class="wikilink1" title="video_tutorials" data-wiki-id="video_tutorials">Videos and Podcasts</a></div>
+</li>
+</ul>
+
+<p>
+<em>First steps into TAD</em>
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/tad_concepts" class="wikilink1" title="tad_concepts" data-wiki-id="tad_concepts">TAD Concepts</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/concept_of_classes_and_objects" class="wikilink1" title="concept_of_classes_and_objects" data-wiki-id="concept_of_classes_and_objects">Concept of Classes and Objects</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/understanding_the_user_interface" class="wikilink1" title="understanding_the_user_interface" data-wiki-id="understanding_the_user_interface">Understanding the User Interface</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/settings" class="wikilink1" title="settings" data-wiki-id="settings">Settings</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/advanced" class="wikilink1" title="advanced" data-wiki-id="advanced">Special Capabilities</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;TAD Designer&quot;,&quot;hid&quot;:&quot;tad_designer&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;20-589&quot;} -->
+<h3 class="sectionedit2" id="working_with_classes">Working with Classes</h3>
+<div class="level3">
+
+<p>
+<a href="/creating_classes" class="wikilink1" title="creating_classes" data-wiki-id="creating_classes">Creating classes</a>
+</p>
+
+<p>
+<a href="/managing_classes" class="wikilink1" title="managing_classes" data-wiki-id="managing_classes">Managing classes</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Working with Classes&quot;,&quot;hid&quot;:&quot;working_with_classes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;590-666&quot;} -->
+<h3 class="sectionedit3" id="working_with_objects">Working with Objects</h3>
+<div class="level3">
+
+<p>
+<a href="/create_a_new_object" class="wikilink1" title="create_a_new_object" data-wiki-id="create_a_new_object">Create a new object</a>
+</p>
+
+<p>
+<a href="/hiding_objects" class="wikilink1" title="hiding_objects" data-wiki-id="hiding_objects">Hiding objects</a>
+</p>
+
+<p>
+<a href="/editing_objects" class="wikilink1" title="editing_objects" data-wiki-id="editing_objects">Editing objects</a>
+</p>
+
+<p>
+<a href="/merging_objects" class="wikilink1" title="merging_objects" data-wiki-id="merging_objects">Merging objects</a>
+</p>
+
+<p>
+<a href="/breaking_an_object" class="wikilink1" title="breaking_an_object" data-wiki-id="breaking_an_object">Breaking an object</a>
+</p>
+
+<p>
+<a href="/deleting_objects" class="wikilink1" title="deleting_objects" data-wiki-id="deleting_objects">Deleting Objects</a>
+</p>
+
+<p>
+<a href="/selecting_objects" class="wikilink1" title="selecting_objects" data-wiki-id="selecting_objects">Selecting objects</a>
+</p>
+
+<p>
+<a href="/snapping_objects" class="wikilink1" title="snapping_objects" data-wiki-id="snapping_objects">Snapping objects</a>
+</p>
+
+<p>
+<a href="/measuring_dimensions" class="wikilink1" title="measuring_dimensions" data-wiki-id="measuring_dimensions">Measuring dimensions</a>
+</p>
+
+<p>
+<a href="/viewing_objects_in_3d" class="wikilink1" title="viewing_objects_in_3d" data-wiki-id="viewing_objects_in_3d">Viewing objects in 3D</a>
+</p>
+
+<p>
+<a href="/copying_objects" class="wikilink1" title="copying_objects" data-wiki-id="copying_objects">Copying objects</a>
+</p>
+
+<p>
+<a href="/pasting_objects" class="wikilink1" title="pasting_objects" data-wiki-id="pasting_objects">Pasting objects</a>
+</p>
+
+<p>
+<a href="/moving_objects" class="wikilink1" title="moving_objects" data-wiki-id="moving_objects">Moving objects</a>
+</p>
+
+<p>
+<a href="/rotating_objects" class="wikilink1" title="rotating_objects" data-wiki-id="rotating_objects">Rotating objects</a>
+</p>
+
+<p>
+<a href="/pinning_objects" class="wikilink1" title="pinning_objects" data-wiki-id="pinning_objects">Pinning objects</a>
+</p>
+
+<p>
+<a href="/undo_objects" class="wikilink1" title="undo_objects" data-wiki-id="undo_objects">Undo objects</a>
+</p>
+
+<p>
+<a href="/moving_the_architect" class="wikilink1" title="moving_the_architect" data-wiki-id="moving_the_architect">Moving the architect</a>
+</p>
+
+<p>
+<a href="/exporting_objects_to_2d" class="wikilink1" title="exporting_objects_to_2d" data-wiki-id="exporting_objects_to_2d">Exporting objects to 2D</a>
+</p>
+
+<p>
+<a href="/exporting_objects_to_3d" class="wikilink1" title="exporting_objects_to_3d" data-wiki-id="exporting_objects_to_3d">Exporting objects to 3D</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Working with Objects&quot;,&quot;hid&quot;:&quot;working_with_objects&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;667-1140&quot;} -->
+<h3 class="sectionedit4" id="object_editing_commands">Object Editing Commands</h3>
+<div class="level3">
+
+<p>
+<a href="/shifting_a_corner" class="wikilink1" title="shifting_a_corner" data-wiki-id="shifting_a_corner">Shifting a corner</a>
+</p>
+
+<p>
+<a href="/adding_a_corner" class="wikilink1" title="adding_a_corner" data-wiki-id="adding_a_corner">Adding a corner</a>
+</p>
+
+<p>
+<a href="/stretching_an_edge" class="wikilink1" title="stretching_an_edge" data-wiki-id="stretching_an_edge">Stretching an edge</a>
+</p>
+
+<p>
+<a href="/extruding_an_edge" class="wikilink1" title="extruding_an_edge" data-wiki-id="extruding_an_edge">Extruding an edge</a>
+</p>
+
+<p>
+<a href="/deleting_a_corner" class="wikilink1" title="deleting_a_corner" data-wiki-id="deleting_a_corner">Deleting a corner</a>
+</p>
+
+<p>
+<a href="/moving_a_set_of_objects" class="wikilink1" title="moving_a_set_of_objects" data-wiki-id="moving_a_set_of_objects">Moving a set of objects</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Object Editing Commands&quot;,&quot;hid&quot;:&quot;object_editing_commands&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;1141-1319&quot;} -->
+<h3 class="sectionedit5" id="display_options">Display Options</h3>
+<div class="level3">
+
+<p>
+<a href="/zooming_objects" class="wikilink1" title="zooming_objects" data-wiki-id="zooming_objects">Zooming objects</a>
+</p>
+
+<p>
+<a href="/panning_objects" class="wikilink1" title="panning_objects" data-wiki-id="panning_objects">Panning objects</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Display Options&quot;,&quot;hid&quot;:&quot;display_options&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;1320-1390&quot;} -->
+<h3 class="sectionedit6" id="keyboard_shortcuts">Keyboard Shortcuts</h3>
+<div class="level3">
+
+<p>
+<a href="/keyboard_shortcuts" class="wikilink1" title="keyboard_shortcuts" data-wiki-id="keyboard_shortcuts">Keyboard Shortcuts</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Keyboard Shortcuts&quot;,&quot;hid&quot;:&quot;keyboard_shortcuts&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;1391-1445&quot;} -->
+<h3 class="sectionedit7" id="appendix">Appendix</h3>
+<div class="level3">
+
+<p>
+<a href="/acknowledgement" class="wikilink1" title="acknowledgement" data-wiki-id="acknowledgement">Acknowledgements</a>
+</p>
+
+<p>
+<a href="/sfa_taxonomy" class="wikilink1" title="sfa_taxonomy" data-wiki-id="sfa_taxonomy">SFA Taxonomy</a>
+</p>
+
+<p>
+<a href="/well-formed_objects" class="wikilink1" title="well-formed_objects" data-wiki-id="well-formed_objects">Well-formed Objects</a>
+</p>
+
+<p>
+<a href="/tadtutorial1" class="wikilink1" title="tadtutorial1" data-wiki-id="tadtutorial1">Tutorials using AutoIT</a>
+</p>
+
+<p>
+<a href="/tos" class="wikilink1" title="tos" data-wiki-id="tos">Legal Terms and Conditions</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Appendix&quot;,&quot;hid&quot;:&quot;appendix&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;1446-1621&quot;} -->
+<h2 class="sectionedit8" id="tad_probes">TAD Probes</h2>
+<div class="level2">
+
+<p>
+<a href="/about_tad_probes" class="wikilink2" title="about_tad_probes" rel="nofollow" data-wiki-id="about_tad_probes">About TAD Probes</a>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;TAD Probes&quot;,&quot;hid&quot;:&quot;tad_probes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;1622-&quot;} -->								<!-- /aside -->
+								
+							</ul>
+						</nav>
+					</header>	
+					
+					<div class="sidebar-offcanvas">
+						<div id="main-sidebar" class="widget-area" role="complementary">
+							<aside id="search-2" class="widget widget_search">
+								<form action="/start" method="get" role="search" class="search doku_form" id="dw__search" accept-charset="utf-8"><input type="hidden" name="do" value="search" /><input type="hidden" name="id" value="haxe" /><div class="no"><input name="q" type="text" class="edit" title="[F]" accesskey="f" placeholder="Search" autocomplete="on" id="qsearch__in" value="" /><button value="1" type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>							</aside>
+							
+							<aside id="recent-posts-2" class="widget widget_recent_entries">
+								<h3 class='widget-title'>Recent / Updated Posts</h3>
+									<div class="pad2 aside include group">
+										<div class="content"><div class="group">
+																																	
+																						
+										</div></div>
+									</div>									
+							</aside>
+							
+							<aside id="categories-1" class="widget widget_categories">
+								<h3 class='widget-title'>About me...</h3>
+									<div class="pad2 aside include group">
+										<div class="content"><div class="group">
+																																</div></div>
+									</div>
+							</aside>
+							
+							<aside id="categories-2" class="widget widget_categories">
+								<h3 class='widget-title'>Administation</h3>
+								
+								<!-- USER TOOLS -->
+																	<div id="dokuwiki__usertools2">
+										<h3 class="a11y">User Tools</h3>
+										<ul>
+											<li><a href="/haxe?do=admin"  class="action admin" rel="nofollow" title="Admin">Admin</a></li><li><a href="/haxe?do=login&amp;sectok="  class="action login" rel="nofollow" title="Log In">Log In</a></li>										</ul>
+									</div>
+																
+							</aside>
+														
+						</div>
+					</div>
+					
+				</div>
+
+				<div id="primary" class="content-area col-lg-9" itemprop="mainContentOfPage">
+															
+					<div id="content" class="site-content" role="main">							
+						<!-- wrapper -->
+						<div class="wrapper group">
+							
+							
+<!-- ********** CONTENT ********** -->
+<div id="dokuwiki__content"><div class="pad group">
+	
+	
+	<div class="page group">
+				<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'teamtad/documentation'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+<!--script src="//load.sumome.com/" data-sumo-site-id="cfb9d81ee022a44869bcd33db5d16c96314de0af7797b0ee16fac40d1a39413d" async="async"></script-->
+<script type="text/javascript">/*<![CDATA[*/
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92417543-1', 'auto');
+  ga('send', 'pageview');
+
+  
+  
+/*!]]>*/</script>
+
+		<!-- wikipage start -->
+		
+<h3 class="sectionedit1" id="compiling_tad_to_code">Compiling TAD to code</h3>
+<div class="level3">
+
+<p>
+This is a unique feature of TAD.  You can now export the <em>entire</em> TAD model, <em>including</em> the ARDELA quick-code (one set in the UI information pane) that your model has into the source code (or binary library) of several computer languages.
+</p>
+
+<p>
+This is quite a breakthrough. Now people need not be restricted into using the internal Prolog based scripting language of ARDELA to extend  the use of TAD. All you need to do is to just export TAD into the source code of the language of your choice. 
+</p>
+
+<p>
+<strong>The magic of <em>Haxe</em></strong><br/>
+
+This powerful facility is powered by the open-source project called <em><a href="https://haxe.org" class="urlextern" target="_blank" title="https://haxe.org" rel="ugc nofollow noopener">Haxe</a></em>. The author of TAD, Sabu Francis, has been an active follower of the Haxe project for years – and all that experience helped in providing this feature. With release 4.1.2 of Haxe, that project has matured a lot in order to be used inside TAD.  
+</p>
+
+<p>
+From version 6.8 TAD now has the capability to <em>internally</em> parse the TAD model and export that as Haxe source code. 
+</p>
+
+<p>
+<strong>Important: Export permission token</strong><br/>
+
+To use this <em>export to code</em> feature in TAD, you would have to get a special <em>token</em> that needs to be pasted into this dialog. The why and what of this <a href="/exportpermission" class="wikilink1" title="exportpermission" data-wiki-id="exportpermission">permission token is explained in a separate topic</a>.
+</p>
+
+<p>
+<strong>Export to Haxe and other languages</strong><br/>
+
+If you want to export your TAD model to Haxe; then it is done in a jiffy. using this <em>Export to code</em> feature. If your only intention was to produce Haxe code,  then TAD does not require you to use or install <em>Haxe</em> in your computer. This option is very useful if you are yourself not a software developer but you want to give the model for additional work to be done on your model in <em>Haxe</em>. 
+</p>
+
+<p>
+TAD does not come bundled with <em>Haxe</em>. That project is a separate open-source project with its own license. You should read its conditions and install if you are satisfied. As of 27th June 2020 <em>haxe</em> is a free, open-source software; but if you are reading this later you should verify their license conditions. TAD is not connected with the <em>Haxe</em> project.
+</p>
+
+<p>
+TAD does a lot more if you do install <em>Haxe</em> on your computer.  If you do have Haxe available on your computer; TAD can then export your TAD model to several different languages, such as Javascript,PHP,Python,Lua.,C++,C# and so on. You can see the list in the dialog. 
+</p>
+
+<p>
+We are now keeping a close watch on the development of the <em>Haxe</em> project and future versions of TAD would take advantages of new features of Haxe too. We are also considering other languages that <em>Haxe</em> does not support; and we may give source-code generation of those languages too. But let me not get ahead of myself.
+</p>
+
+<p>
+The <em>export to code</em> feature of TAD was extensively tested on Haxe 4.1.2  
+</p>
+
+<p>
+<em>A caveat: We found the 32 bit Windows version of Haxe a lot more stable than the 64 bit. Once you install Haxe, it comes with a package manager called haxelib – you would need to use that and install some additional libraries used by Haxe. Follow their documentation for details.</em>
+</p>
+
+<p>
+By default, when TAD exports code – it does it in such a way that it creates a “main function” and so you can directly make standalone applications that would work inside your computer. This main function that is bundled into TAD currently does a simple output: It traces out the areas of two objects.  You can modify the main function by carefully editing the file <em>tadextra.haxe.txt</em> which is in the bin folder of the TAD installation.
+</p>
+
+<p>
+Once you invoke this <em>Export to code</em> feature;l try creating a standalone executable binary by making it export to a C++ source+binary.  You would need at least the Microsoft Visual Studio Express edition (which is free) installed on your computer to produce the binary executable. Without Microsoft Visual Studio Express (or the full version) only the C++ source code is generated. It is needed even for C# (CSharp) code.
+</p>
+
+<p>
+Note that the Haxe output need not have any “main()” routine. We happen to give one for demo purpose – so that you know that TAD indeed can generate the final executable. But you can chose to ignore it./ In such a case you can export your TAD model to a <em>library</em>– and not compile it into a standalone executable. 
+</p>
+
+<p>
+You or a software developer you employ can write such a <em>main</em> function externally and use the library produced using our <em>Export to code</em> facility and you should be able to get a very rich application. 
+</p>
+
+<p>
+<strong>What is a library?</strong><br/>
+
+Note that the concept of a <em>library</em> varies from language to language. In some cases it is a ..dll file. In some other case it would be a .lib file which needs to be linked to other code. In case of interpreted languages; the library simply means that the exported code does not have any active main function; or even if it was there, it was not called.
+</p>
+
+<p>
+Some languages (such as Javascript, PHP) work via the Internet. This can lead to applications that work inside a browser.
+</p>
+
+<p>
+For example; you could export the TAD model into PHP and then upload that generated PHP to a web server. That PHP is picked up by other parts of the PHP code which can process the TAD model; and give you some rich application that is seen right inside a browser.
+</p>
+
+<p>
+Effectively, anyone with coding skills in any of the supported export language can now write additional code in their language. Designers can export TAD into that language and get <em>married</em> to such additional code. This would result in practically anyone developing additional software based around TAD
+</p>
+
+<p>
+We are developing language specific help pages and more richer documentation of all this. This specialized documentation would be available for a nominal cost to those software developers who want to develop applications on top of TAD.
+</p>
+
+<p>
+Keep this page bookmarked for further changes!
+</p>
+
+</div>
+
+		<!-- wikipage stop -->
+		<hr/>
+<i><small>Press F1 <b>inside</b> the application to read context-sensitive help directly in the application itself<a><br/> <b><a href="javascript:history.go(-1)" title="Go back">&#8592;</a></b> <a title='Edit this page (Needs login!)' href='?do=edit'>&#8712;</a></small></i>
+	</div>
+
+	<div class="docInfo">
+		Last modified: le 2023/04/22 20:59	</div>
+
+	</div></div>
+<!-- /content -->
+
+<hr class="a11y" />
+<!-- PAGE ACTIONS -->
+<div id="dokuwiki__pagetools">
+	<h3 class="a11y">Page Tools</h3>
+	<div class="tools">
+		<ul>
+			<li><a href="/haxe?do=backlink"  class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="javascript:void(0);" class="fold_unfold_all" onclick="fold_unfold_all();" rel="nofollow" title="Fold/unfold all"><span>Fold/unfold all</span></a></li><li><a href="#dokuwiki__top"  class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>		</ul>
+	</div>
+</div>
+
+						</div>
+						<!-- /wrapper -->					
+					</div>
+
+					<footer class="site-info" itemscope itemtype="http://schema.org/WPFooter">
+						<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Inspired by WordPress</a>. Theme: Flat 1.7.6 by
+						<a rel="nofollow" href="https://themeisle.com/themes/flat/" title="Flat WordPress Theme">Themeisle</a> adapted for 
+						<a href="https://www.dokuwiki.org/">Dokuwiki</a> by <a href="https://beemoon.fr">www.beemoon.com</a>
+					</footer>
+					
+				</div>
+					
+			</div>
+		</div>
+		
+		
+	<div class="content-area col-lg-12" style="text-align:center;margin:15px;">
+		<!-- ********** FOOTER ********** -->
+		<div id="dokuwiki__footer"><div class="pad">
+			<div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" class="urlextern" target="_blank">CC Attribution-Noncommercial-Share Alike 4.0 International</a></bdi></div>
+			<div class="buttons">
+				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="license" target="_blank"><img src="/lib/images/license/button/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International" /></a>				<a href="http://www.dokuwiki.org/donate" title="Donate" target="_blank"><img
+					src="/lib/tpl/flat/images/button-donate.gif" width="80" height="15" alt="Donate" /></a>
+				<a href="http://php.net" title="Powered by PHP" target="_blank"><img
+					src="/lib/tpl/flat/images/button-php.gif" width="80" height="15" alt="Powered by PHP" /></a>
+				<a href="http://validator.w3.org/check/referer" title="Valid HTML5" target="_blank"><img
+					src="/lib/tpl/flat/images/button-html5.png" width="80" height="15" alt="Valid HTML5" /></a>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="_blank"><img
+					src="/lib/tpl/flat/images/button-css.png" width="80" height="15" alt="Valid CSS" /></a>
+				<a href="http://dokuwiki.org/" title="Driven by DokuWiki" target="_blank"><img
+					src="/lib/tpl/flat/images/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" /></a>
+			</div>
+		</div>
+		</div>
+		<!-- /footer -->
+
+			<script>
+	var $accordion = jQuery('#accordion');
+	$accordion.accordion();
+	</script>
+	</div>
+</div>
+			
+	</div>
+</div>
+						
+	
+<div class="no"><img src="/lib/exe/taskrunner.php?id=haxe&amp;1690380172" width="2" height="1" alt="" /></div>
+<div id="screen__mode" class="no"></div>
+    
+</body>
+</html>
