@@ -2,13 +2,13 @@
 description: TAD stands for “The Architect's Desktop”
 ---
 
-# 👋 Welcome to the Documentation of TAD®
+# 🦳 Welcome to the Documentation of TAD®
 
 
 
 The key component inside TAD is the software for designing, a unique space based BIM (Building Information Modeler) named _TAD Designer Lite_.
 
-**Note:** _Often the term TAD and_ TAD Designer _and_ TAD Designer Lite _are used interchangeably. Read the_ [_FAQ_](https://docs.teamtad.com/faq) _on such terminologies_
+**Note:** _Often the term TAD and_ TAD Designer _and_ TAD Designer Lite _are used interchangeably. Read the_ [_FAQ_](tad-designer/frequently-asked-questions.md) _on such terminologies_
 
 **Mission**
 
