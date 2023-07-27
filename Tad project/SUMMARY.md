@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to the Documentation of TAD®](README.md)
+* [🦳 Welcome to the Documentation of TAD®](README.md)
 * [Documentation](documentation.md)
 
 ## TAD Designer
