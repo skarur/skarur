@@ -4,12 +4,6 @@ description: TAD stands for “The Architect's Desktop”
 
 # 👋 Welcome to the Documentation of TAD®
 
-{% hint style="info" %}
-**GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
-
-## &#x20;<a href="#welcome_to_the_documentation_of_tad" id="welcome_to_the_documentation_of_tad"></a>
-
 
 
 The key component inside TAD is the software for designing, a unique space based BIM (Building Information Modeler) named _TAD Designer Lite_.
@@ -46,28 +40,5 @@ _Press F1 inside the application to read context-sensitive help directly in the 
 
 
 
-## Quick links
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-## Get Started
-
-We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="display-options/zooming-objects/" %}
-[zooming-objects](display-options/zooming-objects/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}

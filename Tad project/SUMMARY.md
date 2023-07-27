@@ -1,7 +1,7 @@
 # Table of contents
 
 * [👋 Welcome to the Documentation of TAD®](README.md)
-* [Page](page.md)
+* [Documentation](documentation.md)
 
 ## TAD Designer
 
@@ -26,6 +26,7 @@
 * [WORKING WITH CLASSES](tad-designer/working-with-classes/README.md)
   * [Creating classes](tad-designer/working-with-classes/creating-classes.md)
 * [Using classes](tad-designer/using-classes.md)
+* [WORKING WITH OBJECTS](tad-designer/working-with-objects.md)
 * [Creating Objects](tad-designer/creating-objects.md)
 * [Hiding objects](tad-designer/hiding-objects.md)
 * [Editing objects](tad-designer/editing-objects.md)
@@ -45,8 +46,6 @@
 * [Moving the architect](tad-designer/moving-the-architect.md)
 * [Exporting objects to 2D](tad-designer/exporting-objects-to-2d.md)
 * [Exporting objects to 3D](tad-designer/exporting-objects-to-3d.md)
-* [Page 1](tad-designer/page-1.md)
-* [Page 2](tad-designer/page-2.md)
 
 ## Object Editing Commands
 
@@ -56,7 +55,6 @@
 * [Extruding an edge](object-editing-commands/extruding-an-edge.md)
 * [Deleting a corner](object-editing-commands/deleting-a-corner.md)
 * [Moving a current object or selected set of objects](object-editing-commands/moving-a-current-object-or-selected-set-of-objects.md)
-* [📎 Understanding Projects](object-editing-commands/understanding-projects.md)
 
 ## Display Options
 
